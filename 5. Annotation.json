@@ -1,0 +1,462 @@
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "grammar_range_accuracy",
+        "error_code": "word_class",
+        "frequency": 1,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Some people think that physical strength is important for success in sport, while other people think that mental strength is more important. Discuss both views and give your own opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "I think mental strength is slight more important",
+                        "explanation": "Trạng từ bổ nghĩa cho động từ, cần sử dụng từ loại trạng từ 'slightly'."
+                    },
+                    {
+                        "quote": "Athletes often face pressure, stress and difficult during competitions.",
+                        "explanation": "Cần danh từ đi sau 'face', vì vậy sử dụng danh từ 'difficulty'."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Some believe that tackling environmental issues should be managed by a global organization instead of being handled individually by national governments. Do you agree or disagree with this belief?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "It is widely acknowledged that environment issues have become a major concern not only for the public but also for governments.",
+                        "explanation": "Cần tính từ bổ nghĩa cho danh từ 'issue', vì vậy sử dụng từ 'environmental' ở dạng tính từ."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "sample_06",
+            "type": "annotation",
+            "ai_grading": false,
+            "error_code": "word_class",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Đọc mỗi câu và highlight TẤT CẢ trạng từ xuất hiện trong câu.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc highlight tất cả trạng từ trong câu giúp bạn nhận diện từ loại dựa trên vị trí và chức năng trong câu, làm nền để tránh lỗi điền sai từ loại như 'slight' thay cho 'slightly' hay 'environment' thay cho 'environmental' trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Tech start-ups frequently overestimate how quickly their products will be adopted by the mainstream market.",
+                "correct": [
+                    "frequently",
+                    "quickly"
+                ],
+                "explanation": "'Frequently' bổ nghĩa cho động từ 'overestimate', chỉ tần suất; 'quickly' bổ nghĩa cho 'be adopted', diễn tả tốc độ của hành động."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Although facial recognition software has become remarkably accurate, it can still misidentify individuals, particularly in poor lighting conditions.",
+                "correct": [
+                    "remarkably",
+                    "still",
+                    "particularly"
+                ],
+                "explanation": "'Remarkably' bổ nghĩa cho tính từ 'accurate'; 'still' bổ nghĩa cho động từ 'misidentify', diễn tả tính tiếp diễn của vấn đề; 'particularly' bổ nghĩa cho cụm trạng ngữ 'in poor lighting conditions', nhấn mạnh trường hợp cụ thể."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Engineers must work closely with regulators so that autonomous vehicles can eventually operate safely on public roads.",
+                "correct": [
+                    "closely",
+                    "eventually",
+                    "safely"
+                ],
+                "explanation": "'Closely' bổ nghĩa cho động từ 'work', diễn tả cách thức; 'eventually' bổ nghĩa cho 'operate', chỉ thời điểm trong tương lai; 'safely' bổ nghĩa cho 'operate', diễn tả tính chất của hành động."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Tech giants are constantly competing to release new devices, even though consumers rarely need to upgrade their gadgets annually.",
+                "correct": [
+                    "constantly",
+                    "rarely",
+                    "annually"
+                ],
+                "explanation": "'Constantly' bổ nghĩa cho 'competing', chỉ tần suất liên tục; 'rarely' bổ nghĩa cho 'need', chỉ tần suất thấp; 'annually' bổ nghĩa cho 'upgrade', chỉ chu kỳ thời gian."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "A poorly designed interface can frustrate users almost instantly, regardless of how powerful the underlying software is.",
+                "correct": [
+                    "poorly",
+                    "almost",
+                    "instantly"
+                ],
+                "explanation": "'Poorly' bổ nghĩa cho tính từ 'designed'; 'almost' bổ nghĩa cho 'instantly', làm rõ mức độ gần như ngay lập tức; 'instantly' bổ nghĩa cho động từ 'frustrate', diễn tả tốc độ xảy ra."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Cybercriminals exploit outdated systems ruthlessly, knowing that many organisations simply fail to update their software on time.",
+                "correct": [
+                    "ruthlessly",
+                    "simply"
+                ],
+                "explanation": "'Ruthlessly' bổ nghĩa cho động từ 'exploit', diễn tả mức độ tàn nhẫn của hành động; 'simply' bổ nghĩa cho 'fail', nhấn mạnh tính đơn giản/hiển nhiên của sự việc."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Unlike older generations, teenagers nowadays adapt almost effortlessly to new applications, partly because they have grown up surrounded by digital tools.",
+                "correct": [
+                    "nowadays",
+                    "almost",
+                    "effortlessly",
+                    "partly"
+                ],
+                "explanation": "'Nowadays' bổ nghĩa cho toàn câu, chỉ thời gian hiện tại; 'almost' bổ nghĩa cho 'effortlessly', làm rõ mức độ; 'effortlessly' bổ nghĩa cho 'adapt', diễn tả cách thức; 'partly' bổ nghĩa cho mệnh đề nguyên nhân phía sau."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Software updates are typically rolled out automatically, but users must occasionally restart their devices manually for changes to take effect.",
+                "correct": [
+                    "typically",
+                    "automatically",
+                    "occasionally",
+                    "manually"
+                ],
+                "explanation": "'Typically' và 'automatically' bổ nghĩa cho 'are rolled out', diễn tả tính thông lệ và cách thức; 'occasionally' bổ nghĩa cho 'must restart', chỉ tần suất; 'manually' bổ nghĩa cho 'restart', diễn tả cách thức thực hiện thủ công."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Despite heavy investment, artificial intelligence still struggles to interpret human emotion accurately in highly ambiguous situations.",
+                "correct": [
+                    "still",
+                    "accurately",
+                    "highly"
+                ],
+                "explanation": "'Still' bổ nghĩa cho động từ 'struggles', diễn tả tính chưa giải quyết được của vấn đề; 'accurately' bổ nghĩa cho 'interpret', diễn tả mức độ chính xác; 'highly' bổ nghĩa cho tính từ 'ambiguous'."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Highlight tất cả trạng từ trong câu sau.",
+                "text_for_annotation": "Once a data breach occurs, companies rarely recover their reputation fully, even if the technical issue is fixed promptly.",
+                "correct": [
+                    "rarely",
+                    "fully",
+                    "promptly"
+                ],
+                "explanation": "'Rarely' bổ nghĩa cho động từ 'recover', chỉ tần suất thấp; 'fully' bổ nghĩa cho 'recover', diễn tả mức độ hoàn toàn; 'promptly' bổ nghĩa cho 'is fixed', diễn tả tốc độ xử lý."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "education",
+        "writing_task": 1,
+        "criterion": "task_achievement",
+        "error_code": "inaccurate_reporting_of_visual_information",
+        "frequency": 2,
+        "references": [
+            {
+                "question": {
+                    "prompt": "The pie chart shows how people use four modes of transport in the city of Edmonton,as well as how the table shows data from five different driving reasons.",
+                    "image": "https://engnovatewebsitestorage.blob.core.windows.net/ielts-writing-task-1-images/be3dc1c2c0b83883",
+                    "question_type": "mixed_charts"
+                },
+                "comments": [
+                    {
+                        "quote": "Turning to the table, the main reason for using a private vehicle is to commute to work, at 45%.",
+                        "explanation": "Sai dữ liệu, con số này trong phần bảng là 55% không phải 45%"
+                    },
+                    {
+                        "quote": "According to the pie chart, LRT is used by 35% of people, which is the largest category.",
+                        "explanation": "Mặc dù số liệu đúng nhưng LRT không phải loại phương tiện chiếm nhiều phần trăm nhất, vì xe ô tô chiếm nhiều hơn (35%)."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "The diagram below shows how a biofuel called ethanol is produced. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+                    "image": "https://www.ieltsessaybank.com/wp-content/uploads/2024/12/biofuel-ethanol-.webp",
+                    "question_type": "process"
+                },
+                "comments": [
+                    {
+                        "quote": "At the first stage in the process of making ethanol, plants and trees grow up and are haverested when they are mature enough.",
+                        "explanation": "Đây là bước thứ 2 không phải bước đầu tiên trong quy trình."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "inaccurate_data_env_03",
+            "type": "annotation",
+            "ai_grading": false,
+            "error_code": "inaccurate_reporting_of_visual_information",
+            "difficulty": "B2",
+            "topic": "education",
+            "instruction": "Đọc đề bài, quan sát hình ảnh biểu đồ/sơ đồ tương ứng, sau đó đọc đoạn trích (1-3 câu) từ một bài viết Task 1. Highlight các từ/cụm từ/số liệu KHÔNG CHÍNH XÁC so với dữ liệu thực tế trong hình ảnh (bao gồm số liệu sai, thứ hạng/so sánh sai, hoặc thứ tự/giai đoạn sai).",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc đối chiếu đoạn trích với biểu đồ và highlight các số liệu, thứ hạng, giai đoạn sai giúp bạn hình thành thói quen kiểm tra lại dữ liệu trước khi viết, khắc phục lỗi ghi sai số liệu (45% thay vì 55%), sai thứ hạng hay sai bước quy trình như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "The table chart below illustrates the percentage of school children attending four groups in secondary school from 2000 to 2009.",
+                "question_image": "https://writing9.com/_next/image?url=https%3A%2F%2Fimages.writing9.com%2F67be59c95369e72c83b6410824082ce9.png&w=1080&q=75",
+                "text_for_annotation": "Community schools rose from 12% in 2000 to 58% in 2009, the largest increase among the four groups. Specialist schools followed a similar upward pattern, increasing from 10% in 2000 to 12% in 2009.",
+                "correct": [
+                    "increasing from 10% in 2000 to 12% in 2009"
+                ],
+                "explanation": "Specialist schools thực tế GIẢM từ 12% (2000) xuống 10% (2009), không phải tăng từ 10% lên 12% — cả xu hướng lẫn thứ tự năm đều bị đảo ngược. Thông tin về Community schools (12% lên 58%, tăng mạnh nhất) là chính xác."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "The charts below give information about a public library in a town called Little Chalfont, including the age of its members in 2016.",
+                "question_image": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXca6Aemc-UPK1Amu58N3QmCl6L3ay6BatjaxbJVcxclX3mUadrWW-zbNwsWqQZY8pY1gFhgdYJ0Am_AgmLgrul6rLbqpgoMXjJau3NzBkTJbJxColGxCpkl6zGPLO2kS063FIKG6A?key=MHZxRaLAwewH7wId-7ZdZw",
+                "text_for_annotation": "Adults aged 18 to 64 made up 51% of the library's total membership, the largest of the four groups. Young adults aged 13 to 17 made up the second-largest group, at 22% of members.",
+                "correct": [
+                    "Young adults aged 13 to 17 made up the second-largest group, at 22% of members"
+                ],
+                "explanation": "Nhóm chiếm vị trí thứ hai thực tế là Children (22%), không phải Young adults 13-17 tuổi (chỉ chiếm 15%, đứng thứ 3). Thông tin về nhóm 18-64 tuổi (51%, đông nhất) là chính xác."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "The table and chart give information about doctors in Australia between 1986 and 2006.",
+                "question_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv-IlEY_TEbhvidgvb-rYEhHRcmZMCPATa5D7NJ9xQ5crkbv-1-dq5-M5i&s=10",
+                "text_for_annotation": "The total number of doctors rose from 23,720 in 1986 to 35,450 in 2006. The proportion of doctors born in Australia and those born overseas were roughly equal by 1996, at around 58% and 42% respectively.",
+                "correct": [
+                    "roughly equal by 1996, at around 58% and 42% respectively"
+                ],
+                "explanation": "Vào năm 1996, tỷ lệ bác sĩ sinh tại Úc và ở nước ngoài KHÔNG cân bằng — số liệu thực tế là khoảng 58% sinh tại Úc và 42% sinh ở nước ngoài mới thuộc về năm 2006 (gần cân bằng), còn năm 1996 vẫn có khoảng cách lớn hơn (58% so với 42% là chưa hoàn toàn chính xác cho 1996, thực tế gần bằng chỉ xảy ra ở 2006). Thông tin về tổng số bác sĩ (23,720 lên 35,450) là chính xác."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "The diagram below shows the life cycle of a frog.",
+                "question_image": "https://engnovatewebsitestorage.blob.core.windows.net/ielts-writing-task-1-images/b94ae7c4c1b098bc",
+                "text_for_annotation": "The cycle begins with eggs, which hatch into a tadpole after developing into an embryo. The tadpole then immediately becomes an adult frog, skipping any intermediate stages of leg development.",
+                "correct": [
+                    "The tadpole then immediately becomes an adult frog, skipping any intermediate stages of leg development"
+                ],
+                "explanation": "Tadpole không chuyển ngay thành adult frog — phải trải qua giai đoạn trung gian 'tadpole frog', trong đó chân trước phát triển (front legs break through) và ếch bắt đầu hô hấp bằng phổi. Thông tin về giai đoạn đầu (eggs → embryo → tadpole) là chính xác."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "The diagram shows the process by which coconut oil is manufactured on a mass scale, from harvesting to shipping.",
+                "question_image": "https://engnovatewebsitestorage.blob.core.windows.net/ielts-writing-task-1-images/86ac3244e9f189f9",
+                "text_for_annotation": "The process begins with harvesting, followed by dehusking and grating. After grating, the coconut is directly filtered and packaged, without any drying or pressing stages.",
+                "correct": [
+                    "After grating, the coconut is directly filtered and packaged, without any drying or pressing stages"
+                ],
+                "explanation": "Sau grating, dừa còn phải qua weighing, drying, pressing, extraction, và clarifying trước khi mới đến filtering và packaging — hoàn toàn không bỏ qua các bước drying và pressing như mô tả. Thông tin về trình tự harvesting → dehusking → grating là chính xác."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "The diagram below shows the water cycle, which is the continuous movement of water on, above and below the surface of the Earth.",
+                "question_image": "https://www.ielts.edu.vn/uploads/11.jpg",
+                "text_for_annotation": "Water evaporates from the ocean and forms condensing water vapour, which then leads to cloud formation and precipitation. The ocean is shown contributing only around 20% of total water vapour in the air, with the rest coming from lakes and rivers.",
+                "correct": [
+                    "The ocean is shown contributing only around 20% of total water vapour in the air, with the rest coming from lakes and rivers"
+                ],
+                "explanation": "Sơ đồ ghi rõ đại dương đóng góp khoảng 80% (không phải 20%) tổng lượng hơi nước trong không khí, và sơ đồ không hề đề cập đến việc phần còn lại đến từ lakes/rivers một cách cụ thể. Thông tin về chu trình evaporation → condensation → precipitation là chính xác."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "The maps below describe an area before and after the construction of a hydroelectric power plant.",
+                "question_image": "https://ieltscity.vn/wp-content/uploads/2025/01/de-thi-ielts-writing-task-1-ngay-02-01-2025.jpg",
+                "text_for_annotation": "Before construction, farmland was located between the river, close to the village. After construction, transmission towers were installed near the power plant, while the historic castle shown in the 'before' map remained untouched in its original position.",
+                "correct": [
+                    "the historic castle shown in the 'before' map remained untouched in its original position"
+                ],
+                "explanation": "Historic castle chỉ xuất hiện trong bản đồ 'before' và không được đề cập hay xuất hiện lại trong bản đồ 'after' — không có căn cứ để khẳng định nó 'remained untouched' vì nó hoàn toàn biến mất khỏi bản đồ sau. Thông tin về farmland và transmission towers là chính xác."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "The graph below shows the CO2 emissions of five regions from 2000 to 2020, and predictions up to the year 2040.",
+                "question_image": "https://media.zim.vn/67ad57bfb76193499d6dcc19/bai-mau-ielts-writing-task-1-ngay-25-01-2025_xlarge.jpg",
+                "text_for_annotation": "Region 5 consistently recorded the lowest emissions among the five regions, generally staying below 2 million metric tonnes. Region 2 showed the most dramatic fluctuations of all regions, ranging from below 1 million to over 9 million metric tonnes.",
+                "correct": [
+                    "Region 2 showed the most dramatic fluctuations of all regions, ranging from below 1 million to over 9 million metric tonnes"
+                ],
+                "explanation": "Region 2 thực tế có mức phát thải khá ổn định, dao động trong khoảng hẹp từ 2.7 đến 6.3 triệu tấn — không hề dao động mạnh từ dưới 1 triệu đến hơn 9 triệu tấn (đó là phạm vi biến động gần với Region 1). Thông tin về Region 5 (thấp nhất, dưới 2 triệu tấn) là chính xác."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "The pie charts indicate changes in the proportions of energy produced in a country from 1983 to 2003.",
+                "question_image": "https://writing9.com/_next/image?url=https%3A%2F%2Fimages.writing9.com%2Ff8106f52407c5f3f5ff5117e7dc0f8e6.png&w=640&q=75",
+                "text_for_annotation": "Natural gas nearly doubled its share, rising from 11% in 1983 to 21% in 2003. Oil's share also grew considerably over the same period, increasing from 38% to 42%.",
+                "correct": [
+                    "Oil's share also grew considerably over the same period, increasing from 38% to 42%"
+                ],
+                "explanation": "Oil thực tế GIẢM từ 42% (1983) xuống 38% (2003) — cả chiều xu hướng lẫn thứ tự năm/số liệu đều bị đảo ngược hoàn toàn trong câu này. Thông tin về Natural gas (11% lên 21%) là chính xác."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "The chart shows the amount of energy generated by wind in four countries from 1985 to 2000.",
+                "question_image": "https://onthiielts.com.vn/wp-content/uploads/2025/05/The-bar-chart-shows-the-amount-of-energy-generated-by-wind-in-four-countries-from-1985-to-2000.-Summarise-the-information-by-selecting-and-reporting-the-main-features-and-make-comparisons-where-re-1024x585.jpg",
+                "text_for_annotation": "India's wind energy output grew only marginally over the fifteen-year period, remaining close to its 1985 level throughout. Denmark, in contrast, recorded the fastest and largest growth of all four countries by 2000.",
+                "correct": [
+                    "Denmark, in contrast, recorded the fastest and largest growth of all four countries by 2000"
+                ],
+                "explanation": "US mới là quốc gia ghi nhận mức tăng trưởng lớn nhất về sản lượng năng lượng gió tính đến năm 2000, không phải Denmark — Denmark thực tế có mức sản lượng thấp nhất trong 4 quốc gia. Thông tin về India (tăng trưởng khiêm tốn) tương đối chính xác so với biểu đồ."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "task_response",
+        "error_code": "off_topic_or_topic_shift",
+        "frequency": 3,
+        "references": [
+            {
+                "question": {
+                    "prompt": "University education should be free to everyone, regardless of income. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "In addition, high school students today face enormous pressure from exams, which negatively affects their mental health.",
+                        "explanation": "Đề bài tập trung vào việc giáo dục đại học có nên miễn phí hay không, nhưng luận điểm này lại bàn về áp lực thi cử của học sinh trung học."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Increasing car use is contributing to global warming and having other undesirable effects on people's health and well-being. To what extent do you agree or disagree with this statement?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "Therefore, governments should build more public bus lanes and offer subsidies for electric vehicles to solve this problem.",
+                        "explanation": "Đề bài chỉ yêu cầu người viết nêu quan điểm đồng ý/không đồng ý, tuy nhiên, luận điểm này lại chuyển sang đưa ra các giải pháp cụ thể."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_an_02",
+            "type": "annotation",
+            "ai_grading": false,
+            "error_code": "off_topic_or_topic_shift",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Đọc mỗi đoạn văn và highlight câu lạc đề — câu đi chệch khỏi trọng tâm lập luận được nêu ở câu chủ đề của đoạn.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc highlight câu đi chệch trọng tâm trong mỗi đoạn văn giúp bạn tập kiểm tra từng luận điểm có bám sát đề bài hay không, khắc phục lỗi lạc sang vấn đề khác (áp lực thi cử ở bậc trung học) hoặc chuyển sang đưa giải pháp khi đề không yêu cầu như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "The rapid growth of Internet of Things (IoT) devices has introduced significant cybersecurity vulnerabilities into everyday life. Many smart home devices, such as cameras and thermostats, are shipped with weak default passwords that are rarely changed by users. These vulnerabilities allow hackers to gain unauthorized access to home networks, potentially exposing sensitive personal data. Social media platforms have also faced growing criticism for how they handle user data privacy. Without stronger security standards for IoT manufacturers, the number of compromised devices is likely to keep rising.",
+                "correct": [
+                    "Social media platforms have also faced growing criticism for how they handle user data privacy."
+                ],
+                "explanation": "Câu chủ đề xác định trọng tâm đoạn là lỗ hổng bảo mật của thiết bị IoT, nhưng câu này lại chuyển sang chủ đề quyền riêng tư dữ liệu trên mạng xã hội — một tiểu chủ đề công nghệ hoàn toàn khác, không liên quan."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "Holding social media companies legally responsible for misinformation would create a strong incentive for them to improve content moderation. Currently, false information can spread rapidly across platforms with little accountability for the companies that host it. This lack of responsibility allows harmful content to influence public opinion on important issues such as elections and public health. Platforms should be required to hire independent fact-checkers to review trending posts before they go viral. For these reasons, imposing legal liability on social media companies is a reasonable step toward reducing the spread of misinformation.",
+                "correct": [
+                    "Platforms should be required to hire independent fact-checkers to review trending posts before they go viral."
+                ],
+                "explanation": "Đoạn văn có nhiệm vụ lập luận ủng hộ việc quy trách nhiệm pháp lý cho công ty mạng xã hội, nhưng câu này lại chuyển sang đề xuất một biện pháp cụ thể (thuê người kiểm chứng thông tin) — vượt ra ngoài phạm vi nêu quan điểm mà đề bài yêu cầu."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "The increasing use of artificial intelligence in manufacturing has led to significant job displacement among factory workers. Automated systems can now perform repetitive assembly tasks faster and more accurately than human labour, reducing the need for manual workers. Many companies have adopted these technologies to cut costs and increase production efficiency. Online learning platforms have become increasingly popular among adult learners seeking new career skills. As automation continues to expand, governments will need to address the growing gap between displaced workers and available job opportunities.",
+                "correct": [
+                    "Online learning platforms have become increasingly popular among adult learners seeking new career skills."
+                ],
+                "explanation": "Câu chủ đề xác định trọng tâm đoạn là tình trạng mất việc làm do AI trong ngành sản xuất, nhưng câu này lại chuyển sang chủ đề nền tảng học trực tuyến — một tiểu chủ đề khác, không liên quan trực tiếp đến lập luận về tự động hóa trong nhà máy."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "Banning smartphones in classrooms would help students concentrate better during lessons. Constant notifications and the temptation to check social media significantly reduce students' ability to focus on academic material. Research has shown that students who are not distracted by phones tend to retain information more effectively. Schools should invest in secure lockers where students can store their phones during the day. Overall, removing smartphones from the classroom environment appears to be a sound measure for improving academic performance.",
+                "correct": [
+                    "Schools should invest in secure lockers where students can store their phones during the day."
+                ],
+                "explanation": "Đoạn văn có nhiệm vụ lập luận ủng hộ việc cấm điện thoại trong lớp học, nhưng câu này lại chuyển sang đề xuất một giải pháp thực thi cụ thể (mua tủ khóa) — vượt ra ngoài phạm vi nêu quan điểm mà đề bài yêu cầu."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "Data centres that power cloud computing services consume enormous amounts of electricity worldwide. As demand for online storage and streaming continues to grow, the energy required to keep these facilities running has risen sharply. Cooling systems alone account for a substantial portion of a data centre's total energy use. Cryptocurrency mining has drawn similar criticism for its extremely high electricity consumption in recent years. Without a shift toward renewable energy sources, the carbon footprint of the tech industry will likely continue to expand.",
+                "correct": [
+                    "Cryptocurrency mining has drawn similar criticism for its extremely high electricity consumption in recent years."
+                ],
+                "explanation": "Câu chủ đề xác định trọng tâm đoạn là mức tiêu thụ điện năng của trung tâm dữ liệu, nhưng câu này lại chuyển sang chủ đề khai thác tiền điện tử — một tiểu chủ đề công nghệ khác, không liên quan trực tiếp đến trung tâm dữ liệu."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "Requiring tech companies to disclose how their algorithms work would increase public trust in digital platforms. Many users have no understanding of why certain content is recommended to them or how their personal data influences these decisions. This lack of transparency makes it difficult for regulators to hold companies accountable for biased or harmful recommendations. Companies should be required to publish detailed technical reports explaining their algorithms every quarter. Therefore, mandating algorithmic transparency is a reasonable step toward greater accountability in the tech industry.",
+                "correct": [
+                    "Companies should be required to publish detailed technical reports explaining their algorithms every quarter."
+                ],
+                "explanation": "Đoạn văn có nhiệm vụ lập luận ủng hộ việc minh bạch hóa thuật toán, nhưng câu này lại chuyển sang đề xuất một yêu cầu báo cáo kỹ thuật cụ thể — vượt ra ngoài phạm vi nêu quan điểm mà đề bài yêu cầu."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "Many technology companies collect vast amounts of personal data from users without their full understanding of how it will be used. This information is often sold to advertisers, who use it to create highly targeted marketing campaigns. Such practices raise serious concerns about user consent and control over personal information. Remote work has become significantly more common since the rise of cloud-based collaboration tools. As data collection practices continue largely unregulated, concerns about digital privacy are likely to intensify.",
+                "correct": [
+                    "Remote work has become significantly more common since the rise of cloud-based collaboration tools."
+                ],
+                "explanation": "Câu chủ đề xác định trọng tâm đoạn là việc thu thập dữ liệu cá nhân của các công ty công nghệ, nhưng câu này lại chuyển sang chủ đề làm việc từ xa — không liên quan đến lập luận về quyền riêng tư dữ liệu."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "Banning children under the age of 13 from using social media would help protect them from harmful content and online predators. Young children often lack the maturity to distinguish between reliable information and misleading content online. Excessive exposure to social media at a young age has also been linked to increased anxiety and lower self-esteem. Social media companies should be required to donate a percentage of their profits to child mental health research. In light of these risks, restricting social media access for young children seems like a reasonable protective measure.",
+                "correct": [
+                    "Social media companies should be required to donate a percentage of their profits to child mental health research."
+                ],
+                "explanation": "Đoạn văn có nhiệm vụ lập luận ủng hộ việc cấm trẻ dưới 13 tuổi dùng mạng xã hội, nhưng câu này lại chuyển sang đề xuất một yêu cầu tài chính cụ thể — vượt ra ngoài phạm vi nêu quan điểm mà đề bài yêu cầu."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "The rapid pace of technological upgrades has led to a dramatic increase in electronic waste worldwide. Millions of smartphones, laptops, and other devices are discarded each year, often ending up in landfills rather than being properly recycled. Many of these devices contain toxic materials, such as lead and mercury, that can contaminate soil and water when improperly disposed of. Virtual reality technology has advanced significantly, offering new possibilities for education and entertainment. Without stronger recycling infrastructure, the environmental damage caused by e-waste is expected to worsen.",
+                "correct": [
+                    "Virtual reality technology has advanced significantly, offering new possibilities for education and entertainment."
+                ],
+                "explanation": "Câu chủ đề xác định trọng tâm đoạn là rác thải điện tử, nhưng câu này lại chuyển sang chủ đề công nghệ thực tế ảo — một tiểu chủ đề công nghệ hoàn toàn khác, không liên quan đến vấn đề rác thải điện tử."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Highlight câu lạc đề (không phù hợp với trọng tâm của đoạn) trong đoạn văn dưới đây.",
+                "text_for_annotation": "Stricter government regulation of artificial intelligence development would help prevent the misuse of powerful technologies. Without clear rules, companies may prioritise rapid innovation over safety, potentially leading to unintended harmful consequences. Regulation could also ensure that AI systems are tested rigorously before being deployed in sensitive areas such as healthcare and law enforcement. Governments should establish a dedicated international agency to monitor AI research across all countries. For these reasons, increased regulatory oversight of AI development is a reasonable and necessary measure.",
+                "correct": [
+                    "Governments should establish a dedicated international agency to monitor AI research across all countries."
+                ],
+                "explanation": "Đoạn văn có nhiệm vụ lập luận ủng hộ việc siết chặt quản lý AI, nhưng câu này lại chuyển sang đề xuất thành lập một cơ quan quốc tế cụ thể — vượt ra ngoài phạm vi nêu quan điểm mà đề bài yêu cầu."
+            }
+        ]
+    }
+}

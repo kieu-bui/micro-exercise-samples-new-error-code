@@ -1,0 +1,461 @@
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "grammar_range_accuracy",
+        "error_code": "subject_verb_agreement",
+        "frequency": 1,
+        "references": [
+            {
+                "question": {
+                    "prompt": "In some parts of the world it is becoming popular to research the history of one's own family. Why might people want to do this? Is it a positive or negative development?",
+                    "question_type": "2_part_question"
+                },
+                "comments": [
+                    {
+                        "quote": "One of the main reasons people investigate their family history are their desire",
+                        "explanation": "Chủ ngữ \"One of the main reasons\" cần chia động từ \"is\""
+                    },
+                    {
+                        "quote": "In addition, advances in technology have make genealogical research much easier",
+                        "explanation": "Chia sai động từ thì hiện tại hoàn thành."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Some people say that art subjects such as music, drama and creative writing are an essential part of education, and every school should include them in its syllabus. Do you agree or disagree with this statement? Give your opinion And examples from your own experience.",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "On the other hand, draw enhances students' fine motor skills because it requires precise hand movements and good hand-eye coordination.",
+                        "explanation": "Động từ làm chủ ngữ cần chia."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Some people think that the best way to reduce crime is to give longer prison sentences. Others, however, believe there are better alternative ways of reducing crime. Discuss both views and give your opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "To begin with, there is no doubt that extended prison sentences leaves a psychological impact to reduce crime because they create fear among offenders.",
+                        "explanation": "Động từ 'leave' sai."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "sample_03",
+            "type": "gap_filling",
+            "ai_grading": false,
+            "error_code": "subject_verb_agreement",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Chia động từ trong ngoặc vào chỗ trống cho đúng.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc tự chia động từ trong ngoặc theo chủ ngữ của từng câu giúp bạn luyện xác định đúng chủ ngữ thật để động từ hòa hợp về số, khắc phục lỗi như 'One of the main reasons… are' hay 'extended prison sentences leaves' trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "One of the biggest concerns surrounding artificial intelligence _______ (be) its potential to replace human workers across multiple industries.",
+                "correct": [
+                    "is"
+                ],
+                "explanation": "Chủ ngữ thực sự là 'One', không phải 'concerns' hay 'artificial intelligence', nên động từ chia số ít là 'is'. Lỗi phổ biến là chia theo danh từ gần nhất thành 'are'."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Over the past decade, smartphone applications _______ (transform) the way people access information and communicate with one another.",
+                "correct": [
+                    "have transformed"
+                ],
+                "explanation": "Cụm trạng từ 'Over the past decade' kết hợp với hành động kéo dài đến hiện tại đòi hỏi thì hiện tại hoàn thành 'have transformed', không phải dạng nguyên thể hay quá khứ đơn."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "_______ (automate) routine tasks allows companies to allocate human resources to more creative and strategic work.",
+                "correct": [
+                    "Automating"
+                ],
+                "explanation": "Khi một động từ làm chủ ngữ của câu, nó phải ở dạng danh động từ (gerund) 'Automating', không phải dạng nguyên thể vì theo sau là động từ chia số ít 'allows'."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Many privacy advocates argue that data-collecting algorithms _______ (pose) a serious risk to personal freedom in the digital age.",
+                "correct": [
+                    "pose"
+                ],
+                "explanation": "Chủ ngữ 'data-collecting algorithms' là danh từ số nhiều nên động từ chia số nhiều 'pose', không thêm '-s'. Lỗi phổ biến là chia theo danh động từ gần kề thành số ít."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Personal data that _______ (collect) without explicit consent can be exploited for purposes users never intended.",
+                "correct": [
+                    "is collected",
+                    "has been collected"
+                ],
+                "explanation": "Vì dữ liệu là đối tượng chịu tác động của hành động thu thập, cần dùng thể bị động 'is collected' hoặc 'has been collected', không dùng thể chủ động."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "New regulations would require all tech companies _______ (disclose) how user data is being processed and stored.",
+                "correct": [
+                    "to disclose"
+                ],
+                "explanation": "Cấu trúc 'require + tân ngữ + to V' là cấu trúc cố định, vì vậy động từ sau tân ngữ 'companies' phải ở dạng to-V 'to disclose'."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Since the launch of high-speed internet, remote working _______ (become) a viable option for millions of employees worldwide.",
+                "correct": [
+                    "has become"
+                ],
+                "explanation": "Mốc thời gian 'Since the launch of high-speed internet' báo hiệu thì hiện tại hoàn thành 'has become', diễn tả quá trình bắt đầu trong quá khứ và tiếp diễn đến hiện tại."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Each of the major social media platforms _______ (claim) to prioritize user safety in its community guidelines.",
+                "correct": [
+                    "claims"
+                ],
+                "explanation": "Cấu trúc 'Each of + danh từ số nhiều' luôn đi với động từ chia số ít 'claims', vì chủ ngữ ngữ pháp thực sự là 'Each', không phải 'platforms'."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "By the time most countries establish comprehensive AI regulations, irreversible changes to the job market _______ (already / take place).",
+                "correct": [
+                    "will have already taken place"
+                ],
+                "explanation": "Cấu trúc 'By the time + mệnh đề hiện tại đơn' kết hợp với hành động hoàn tất trước một thời điểm trong tương lai đòi hỏi thì tương lai hoàn thành 'will have already taken place'."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Experts recommend that every organization _______ (implement) strict cybersecurity protocols before adopting cloud-based systems.",
+                "correct": [
+                    "implement"
+                ],
+                "explanation": "Sau động từ 'recommend that' diễn tả đề xuất/khuyến nghị, mệnh đề theo sau dùng dạng nguyên thể không 's' (subjunctive) 'implement', dù chủ ngữ 'organization' là số ít."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "environment",
+        "writing_task": 2,
+        "criterion": "coherence_cohesion",
+        "error_code": "missing_or_inaccurate_connector",
+        "frequency": 2,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Some people think that zoos are cruel and should be closed down. Others, however, believe that zoos can be useful in protecting wild animals. Discuss both views and give your opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "Zoos keep animals in small enclosures far from their natural habitat. Similarly, some zoos run successful breeding programs for endangered species.",
+                        "explanation": "\"Similarly\" (tương tự) dùng để nối hai ý có tính chất giống nhau, nhưng ở đây hai vế câu lại đối lập nhau về mặt nội dung"
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "The roads in major cities today are often difficult to travel on. What are the causes of this? What are some possible solutions?",
+                    "question_type": "2_part_question"
+                },
+                "comments": [
+                    {
+                        "quote": "The government could invest in public transportation systems. Nevertheless, this would reduce the number of private vehicles on the road",
+                        "explanation": "\"Nevertheless\" (tuy nhiên) biểu thị sự tương phản, nhưng câu sau lại là kết quả/hệ quả logic của câu trước"
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_gf_01",
+            "type": "gap_filling",
+            "ai_grading": false,
+            "error_code": "missing_or_inaccurate_connector",
+            "difficulty": "B2",
+            "topic": "environment",
+            "instruction": "Điền từ nối phù hợp vào chỗ trống trong mỗi câu.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc tự điền từ nối dựa trên quan hệ giữa hai câu (đối lập, nguyên nhân – kết quả, bổ sung) giúp bạn chọn từ nối theo đúng logic, khắc phục lỗi dùng 'Similarly' cho hai ý đối lập hay 'Nevertheless' cho quan hệ kết quả như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Many coastal cities have invested heavily in flood defences to protect against rising sea levels. _______, several low-lying island nations still lack the resources to build even basic protective infrastructure.",
+                "correct": [
+                    "However",
+                    "In contrast",
+                    "By contrast",
+                    "On the other hand",
+                    "Conversely"
+                ],
+                "explanation": "Hai vế câu đối lập nhau: một bên có đủ nguồn lực xây dựng hệ thống phòng chống lũ, bên kia thiếu nguồn lực dù cùng đối mặt với nước biển dâng — cần từ nối chỉ sự tương phản. Dùng 'Similarly' hay 'In addition' ở đây sẽ sai vì hai vế không cùng tính chất hay bổ sung cho nhau."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Deforestation has destroyed vast areas of natural habitat across the tropics. _______, many species that once thrived in these regions are now critically endangered.",
+                "correct": [
+                    "As a result",
+                    "Consequently",
+                    "Therefore",
+                    "Thus",
+                    "Hence",
+                    "As a consequence",
+                    "For this reason"
+                ],
+                "explanation": "Vế sau là hệ quả trực tiếp của vế trước (mất môi trường sống dẫn đến loài bị đe dọa tuyệt chủng) — cần từ nối chỉ kết quả. 'Nevertheless' sẽ sai vì không có sự tương phản nào giữa hai vế, chỉ có quan hệ nhân quả."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Renewable energy reduces reliance on fossil fuels. _______, it creates thousands of new jobs in manufacturing and installation.",
+                "correct": [
+                    "Furthermore",
+                    "Moreover",
+                    "In addition",
+                    "Additionally",
+                    "Besides this",
+                    "What is more",
+                    "On top of this"
+                ],
+                "explanation": "Vế sau bổ sung thêm một lợi ích khác của năng lượng tái tạo, không đối lập và không phải là kết quả của vế trước — cần từ nối chỉ sự bổ sung. 'As a result' sẽ sai vì việc tạo ra việc làm không phải là hệ quả logic của việc giảm phụ thuộc nhiên liệu hóa thạch."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Electric vehicles produce zero tailpipe emissions. _______, the production of their batteries still generates a significant carbon footprint.",
+                "correct": [
+                    "Nevertheless",
+                    "Nonetheless",
+                    "However",
+                    "Even so",
+                    "Still",
+                    "That said",
+                    "Despite this",
+                    "In spite of this"
+                ],
+                "explanation": "Vế sau nêu một hạn chế tồn tại dù vế trước là một điểm tích cực — đây là quan hệ nhượng bộ/tương phản. 'Similarly' sẽ sai vì hai vế không cùng tính chất (một tích cực, một là hạn chế)."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Several countries have introduced innovative policies to tackle plastic pollution. _______, Rwanda banned single-use plastic bags nationwide as early as 2008.",
+                "correct": [
+                    "For example",
+                    "For instance",
+                    "To illustrate"
+                ],
+                "explanation": "Vế sau đưa ra một ví dụ cụ thể minh họa cho nhận định chung ở vế trước — cần từ nối chỉ ví dụ minh họa. 'Consequently' sẽ sai vì việc Rwanda cấm túi nilon không phải là hệ quả của câu đầu, mà là một minh chứng cụ thể."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Solar power has become significantly cheaper over the past decade. _______, the cost of wind turbine technology has also fallen sharply during the same period.",
+                "correct": [
+                    "Similarly",
+                    "Likewise",
+                    "In the same way",
+                    "By the same token",
+                    "Correspondingly"
+                ],
+                "explanation": "Hai vế câu mô tả xu hướng tương tự nhau (cả hai loại năng lượng đều giảm giá) — đây là quan hệ tương đồng thực sự, khác với ví dụ lỗi trong reference khi 'Similarly' bị dùng sai cho hai ý đối lập."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Overfishing has depleted many marine species faster than they can reproduce. _______, several fishing communities have seen their livelihoods collapse.",
+                "correct": [
+                    "As a result",
+                    "Consequently",
+                    "Therefore",
+                    "Thus",
+                    "Hence",
+                    "As a consequence",
+                    "For this reason"
+                ],
+                "explanation": "Vế sau là hệ quả trực tiếp của vế trước (nguồn cá cạn kiệt dẫn đến sinh kế của ngư dân sụp đổ) — cần từ nối chỉ kết quả, không phải từ nối chỉ tương phản như 'Nevertheless'."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Wealthier nations have the technology and funding to adapt to climate change relatively quickly. _______, developing countries often bear the worst effects with the fewest resources to respond.",
+                "correct": [
+                    "However",
+                    "In contrast",
+                    "By contrast",
+                    "On the other hand",
+                    "Conversely"
+                ],
+                "explanation": "Hai vế đối lập nhau về khả năng ứng phó với biến đổi khí hậu giữa hai nhóm quốc gia — cần từ nối chỉ sự tương phản. 'Furthermore' sẽ sai vì đây không phải là ý bổ sung mà là một sự đối lập rõ rệt."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Planting urban trees helps absorb carbon dioxide from the atmosphere. _______, they provide shade that can reduce a city's overall temperature during heatwaves.",
+                "correct": [
+                    "Furthermore",
+                    "Moreover",
+                    "In addition",
+                    "Additionally",
+                    "Besides this",
+                    "What is more",
+                    "On top of this"
+                ],
+                "explanation": "Vế sau bổ sung thêm một lợi ích khác của việc trồng cây đô thị, không đối lập với vế trước — cần từ nối chỉ sự bổ sung, không phải từ nối chỉ kết quả như 'Therefore'."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Recycling programmes have significantly reduced the amount of waste sent to landfill. _______, a large proportion of recyclable material is still not properly sorted by households.",
+                "correct": [
+                    "Nevertheless",
+                    "Nonetheless",
+                    "However",
+                    "Even so",
+                    "Still",
+                    "That said",
+                    "Despite this",
+                    "In spite of this"
+                ],
+                "explanation": "Vế sau nêu một hạn chế còn tồn tại dù đã đạt được kết quả tích cực ở vế trước — quan hệ nhượng bộ, giống đúng với cách dùng 'Nevertheless' mà reference gốc đã chỉ ra là bị dùng sai khi thay vào chỗ cần quan hệ kết quả."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "grammar_range_accuracy",
+        "error_code": "conditional_and_hypothetical_structure",
+        "frequency": 3,
+        "references": [
+            {
+                "question": {
+                    "prompt": "The best way to solve the world's environmental problem is to increase the cost of fuel for cars and other vehicles. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "If the government will increase fuel prices, people would use public transport more often.",
+                        "explanation": "Lỗi câu điều kiện – đây là câu điều kiện loại 2 (giả định trái với hiện tại/tương lai không chắc chắn) nhưng mệnh đề if lại dùng sai thì (\"will increase\" thay vì \"increased\")"
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Nowadays, women as well as men work full time. Therefore, women and men should share household tasks equally. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "Women, that work full-time jobs, still spend more hours on housework than men.",
+                        "explanation": "Lỗi mệnh đề quan hệ – khi mệnh đề quan hệ bổ nghĩa cho danh từ chỉ người (\"women\") và đóng vai trò làm chủ ngữ trong mệnh đề quan hệ, phải dùng đại từ quan hệ \"who\", không dùng \"that\""
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_gf_06",
+            "type": "gap_filling",
+            "ai_grading": false,
+            "error_code": "conditional_and_hypothetical_structure",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Điền từ thích hợp vào chỗ trống dựa vào từ gợi ý trong ngoặc để hoàn thành câu đúng ngữ pháp.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc tự điền dạng đúng của động từ trong các câu điều kiện loại 1, 2, 3 giúp bạn nắm chắc công thức phối hợp thì giữa mệnh đề if và mệnh đề chính, khắc phục lỗi dùng 'will increase' trong mệnh đề if của câu điều kiện loại 2 như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "If companies _______ (fail) to secure their networks properly, cyberattacks will continue to increase in frequency.",
+                "correct": [
+                    "fail"
+                ],
+                "explanation": "Đây là câu điều kiện loại 1 (khả năng có thật ở hiện tại/tương lai, thể hiện qua 'will continue'), nên mệnh đề if phải chia hiện tại đơn 'fail', không dùng 'would fail' (loại 2) hay 'will fail'."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "The security experts _______ (that) the firm consulted after the breach recommended an immediate system overhaul.",
+                "correct": [
+                    "whom"
+                ],
+                "explanation": "'Security experts' là người, và đại từ quan hệ đóng vai trò tân ngữ của động từ 'consulted' (the firm consulted the security experts), nên trong văn phong trang trọng cần dùng 'whom', không dùng 'that'."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "If more start-ups _______ (adopt) open-source software, innovation across the tech industry would accelerate significantly.",
+                "correct": [
+                    "adopted"
+                ],
+                "explanation": "Đây là câu điều kiện loại 2 (giả định trái với thực tế hiện tại), mệnh đề chính đã dùng 'would accelerate' nên mệnh đề if phải chia quá khứ đơn 'adopted', khác với loại 1 chỉ dùng hiện tại đơn."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Algorithms _______ (process) vast amounts of personal data raise serious concerns about user privacy.",
+                "correct": [
+                    "processing"
+                ],
+                "explanation": "Đây là mệnh đề quan hệ rút gọn: câu đầy đủ là 'Algorithms that process vast amounts of personal data...'; vì chủ ngữ 'algorithms' chủ động thực hiện hành động, mệnh đề quan hệ được rút gọn bằng động từ dạng V-ing 'processing', không dùng dạng quá khứ phân từ."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "If regulators _______ (act) on data privacy concerns a decade ago, today's misinformation crisis might have been far less severe.",
+                "correct": [
+                    "had acted"
+                ],
+                "explanation": "Đây là câu điều kiện loại 3 (giả định trái với quá khứ, thể hiện qua 'a decade ago' và 'might have been'), nên mệnh đề if phải chia quá khứ hoàn thành 'had acted', khác với loại 2 chỉ dùng quá khứ đơn."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "The company, _______ (that) reputation was severely damaged by the data leak, faced a sharp decline in stock price.",
+                "correct": [
+                    "whose"
+                ],
+                "explanation": "Mệnh đề quan hệ diễn tả sở hữu ('the company's reputation'), nên phải dùng đại từ quan hệ sở hữu 'whose', không dùng 'that' vì 'that' không thể hiện được quan hệ sở hữu."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "If people relied less on smartphones, average attention spans _______ (improve) considerably.",
+                "correct": [
+                    "would improve"
+                ],
+                "explanation": "Mệnh đề if đã chia quá khứ đơn 'relied' (câu điều kiện loại 2), nên mệnh đề chính phải dùng cấu trúc 'would + động từ nguyên mẫu': 'would improve', không dùng 'improves' (loại 1) hay 'would have improved' (loại 3)."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Applications _______ (develop) without proper security testing are highly vulnerable to hacking.",
+                "correct": [
+                    "developed"
+                ],
+                "explanation": "Đây là mệnh đề quan hệ rút gọn ở thể bị động: câu đầy đủ là 'Applications that are developed without proper security testing...'; vì 'applications' là đối tượng chịu tác động của hành động 'develop', mệnh đề quan hệ được rút gọn bằng động từ dạng quá khứ phân từ 'developed', khác với dạng V-ing dùng cho chủ động."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Smart devices will keep collecting excessive data if manufacturers _______ (continue) to prioritise convenience over privacy.",
+                "correct": [
+                    "continue"
+                ],
+                "explanation": "Đây là câu điều kiện loại 1 (khả năng có thật, thể hiện qua 'will keep collecting'), nên mệnh đề if phải chia hiện tại đơn 'continue', không dùng 'continued' (loại 2) hay 'had continued' (loại 3)."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Many data breaches would not have occurred if companies _______ (encrypt) sensitive information earlier.",
+                "correct": [
+                    "had encrypted"
+                ],
+                "explanation": "Đây là câu điều kiện loại 3 (giả định trái với quá khứ, thể hiện qua 'earlier' và 'would not have occurred'), nên mệnh đề if phải chia quá khứ hoàn thành 'had encrypted', không dùng 'encrypted' (loại 2) hay 'encrypt' (loại 1)."
+            }
+        ]
+    }
+}

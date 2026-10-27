@@ -1,0 +1,542 @@
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "coherence_cohesion",
+        "error_code": "multiple_central_topics_in_one_paragraph",
+        "frequency": 1,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Childhood obesity has become a serious problem in recent years. What are the primary causes of this? What measures should be taken to reduce childhood obesity?",
+                    "question_type": "2_part_question"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Bài viết đề cập đến giải pháp ngay trong đoạn phân tích nguyên nhân, rồi lại quay lại nêu thêm nguyên nhân khác ở đoạn được dành cho giải pháp, khiến cấu trúc hai phần của bài (nguyên nhân - giải pháp) bị lẫn lộn, khó theo dõi."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Some people believe that professional athletes serve as positive role models for young people, while others argue that their behavior both on and off the field can have a negative influence. Discuss both sides and give your opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Các câu về mặt tích cực và tiêu cực của vận động viên bị xen kẽ lộn xộn trong cùng một đoạn thay vì được tách thành hai đoạn riêng biệt"
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_ro_02",
+            "type": "reorder",
+            "ai_grading": false,
+            "error_code": "multiple_central_topics_in_one_paragraph",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Sắp xếp các câu đã cho theo thứ tự hợp lý để tạo thành một đoạn văn mạch lạc.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc sắp xếp các câu xáo trộn thành một đoạn văn có trình tự hợp lý giúp bạn nhận ra mỗi đoạn chỉ nên phát triển một ý trung tâm, khắc phục lỗi trộn giải pháp vào đoạn phân tích nguyên nhân hoặc xen kẽ mặt tích cực và tiêu cực trong cùng một đoạn như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "As a result, numerous smart home devices are shipped with weak or unchangeable default passwords.",
+                    "B": "The rapid expansion of Internet of Things (IoT) devices has introduced serious cybersecurity vulnerabilities into everyday life.",
+                    "C": "Establishing mandatory security standards for IoT manufacturers could significantly reduce these risks.",
+                    "D": "Many manufacturers prioritise low production costs over robust security features when designing these devices.",
+                    "E": "These vulnerabilities allow hackers to gain unauthorized access to entire home networks."
+                },
+                "correct": "B-D-A-E-C",
+                "explanation": "Thứ tự đúng: The rapid expansion of Internet of Things (IoT) devices has introduced serious cybersecurity vulnerabilities into everyday life. Many manufacturers prioritise low production costs over robust security features when designing these devices. As a result, numerous smart home devices are shipped with weak or unchangeable default passwords. These vulnerabilities allow hackers to gain unauthorized access to entire home networks. Establishing mandatory security standards for IoT manufacturers could significantly reduce these risks."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "This shift has left a large number of low-skilled workers struggling to find comparable employment elsewhere.",
+                    "B": "Automated systems can now perform repetitive assembly tasks faster and more accurately than human labour.",
+                    "C": "The growing use of artificial intelligence in manufacturing has led to significant job displacement among factory workers.",
+                    "D": "Expanding access to retraining programmes could help displaced workers transition into new roles.",
+                    "E": "Consequently, many companies have reduced their reliance on manual workers to cut production costs."
+                },
+                "correct": "C-B-E-A-D",
+                "explanation": "Thứ tự đúng: The growing use of artificial intelligence in manufacturing has led to significant job displacement among factory workers. Automated systems can now perform repetitive assembly tasks faster and more accurately than human labour. Consequently, many companies have reduced their reliance on manual workers to cut production costs. This shift has left a large number of low-skilled workers struggling to find comparable employment elsewhere. Expanding access to retraining programmes could help displaced workers transition into new roles."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Shifting toward renewable energy sources could help reduce the environmental impact of data centres.",
+                    "B": "Cooling systems alone account for a substantial portion of a data centre's total energy use.",
+                    "C": "Data centres that power cloud computing services consume enormous amounts of electricity worldwide.",
+                    "D": "This heavy energy consumption contributes considerably to the overall carbon footprint of the technology sector.",
+                    "E": "Rising global demand for online storage and streaming has significantly increased the energy required to keep these facilities running."
+                },
+                "correct": "C-E-B-D-A",
+                "explanation": "Thứ tự đúng: Data centres that power cloud computing services consume enormous amounts of electricity worldwide. Rising global demand for online storage and streaming has significantly increased the energy required to keep these facilities running. Cooling systems alone account for a substantial portion of a data centre's total energy use. This heavy energy consumption contributes considerably to the overall carbon footprint of the technology sector. Shifting toward renewable energy sources could help reduce the environmental impact of data centres."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Algorithms designed to maximise user engagement often favour sensational or emotionally charged content.",
+                    "B": "This dynamic makes it increasingly difficult for users to distinguish reliable information from falsehoods.",
+                    "C": "Improving algorithmic transparency could help reduce the spread of harmful misinformation.",
+                    "D": "Social media platforms have become a major channel through which misinformation spreads rapidly.",
+                    "E": "As a result, false or misleading stories frequently outperform accurate reporting in terms of reach."
+                },
+                "correct": "D-A-E-B-C",
+                "explanation": "Thứ tự đúng: Social media platforms have become a major channel through which misinformation spreads rapidly. Algorithms designed to maximise user engagement often favour sensational or emotionally charged content. As a result, false or misleading stories frequently outperform accurate reporting in terms of reach. This dynamic makes it increasingly difficult for users to distinguish reliable information from falsehoods. Improving algorithmic transparency could help reduce the spread of harmful misinformation."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Much of this discarded equipment ends up in landfills rather than being properly recycled.",
+                    "B": "The rapid pace of technological upgrades has led to a dramatic increase in electronic waste worldwide.",
+                    "C": "Many of these devices contain toxic materials that can contaminate soil and water when improperly disposed of.",
+                    "D": "Consumers frequently replace smartphones and laptops long before these devices stop functioning properly.",
+                    "E": "Establishing stronger recycling infrastructure could significantly reduce the environmental damage caused by e-waste."
+                },
+                "correct": "B-D-A-C-E",
+                "explanation": "Thứ tự đúng: The rapid pace of technological upgrades has led to a dramatic increase in electronic waste worldwide. Consumers frequently replace smartphones and laptops long before these devices stop functioning properly. Much of this discarded equipment ends up in landfills rather than being properly recycled. Many of these devices contain toxic materials that can contaminate soil and water when improperly disposed of. Establishing stronger recycling infrastructure could significantly reduce the environmental damage caused by e-waste."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Many technology companies collect vast amounts of personal data from users without their full understanding of how it will be used.",
+                    "B": "As a result, personal information is frequently sold to advertisers for highly targeted marketing purposes.",
+                    "C": "Weak data protection regulations in many countries allow this widespread collection to continue largely unchecked.",
+                    "D": "This practice raises serious concerns about user consent and control over their own data.",
+                    "E": "Introducing stricter data privacy laws could help give users greater control over their personal information."
+                },
+                "correct": "A-C-B-D-E",
+                "explanation": "Thứ tự đúng: Many technology companies collect vast amounts of personal data from users without their full understanding of how it will be used. Weak data protection regulations in many countries allow this widespread collection to continue largely unchecked. As a result, personal information is frequently sold to advertisers for highly targeted marketing purposes. This practice raises serious concerns about user consent and control over their own data. Introducing stricter data privacy laws could help give users greater control over their personal information."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Consequently, AI hiring tools can inadvertently disadvantage candidates from certain demographic groups.",
+                    "B": "Requiring regular algorithmic audits could help identify and correct these hidden biases.",
+                    "C": "These systems are often trained on historical hiring data that may reflect past discriminatory practices.",
+                    "D": "Artificial intelligence is increasingly used by companies to screen job applicants during the hiring process.",
+                    "E": "This bias can persist unnoticed for years, since companies rarely audit their hiring algorithms closely."
+                },
+                "correct": "D-C-A-E-B",
+                "explanation": "Thứ tự đúng: Artificial intelligence is increasingly used by companies to screen job applicants during the hiring process. These systems are often trained on historical hiring data that may reflect past discriminatory practices. Consequently, AI hiring tools can inadvertently disadvantage candidates from certain demographic groups. This bias can persist unnoticed for years, since companies rarely audit their hiring algorithms closely. Requiring regular algorithmic audits could help identify and correct these hidden biases."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Such disruptions can leave entire communities without electricity or clean water for extended periods.",
+                    "B": "Cyberattacks targeting critical infrastructure, such as power grids and water systems, have become increasingly common.",
+                    "C": "Investing in modernised, secure infrastructure systems is essential for reducing these risks.",
+                    "D": "Many of these systems still rely on outdated software that was never designed with modern cybersecurity threats in mind.",
+                    "E": "As a result, hackers can exploit known vulnerabilities to disrupt essential public services."
+                },
+                "correct": "B-D-E-A-C",
+                "explanation": "Thứ tự đúng: Cyberattacks targeting critical infrastructure, such as power grids and water systems, have become increasingly common. Many of these systems still rely on outdated software that was never designed with modern cybersecurity threats in mind. As a result, hackers can exploit known vulnerabilities to disrupt essential public services. Such disruptions can leave entire communities without electricity or clean water for extended periods. Investing in modernised, secure infrastructure systems is essential for reducing these risks."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Research has linked this heavy usage to higher rates of anxiety and disrupted sleep patterns.",
+                    "B": "Encouraging structured screen-time limits could help mitigate these negative effects on teenage wellbeing.",
+                    "C": "Excessive screen time has become increasingly common among teenagers due to the widespread use of smartphones.",
+                    "D": "Reduced face-to-face social interaction has also been associated with prolonged screen use.",
+                    "E": "Many teenagers spend several hours each day scrolling through social media apps designed to maximise engagement."
+                },
+                "correct": "C-E-A-D-B",
+                "explanation": "Thứ tự đúng: Excessive screen time has become increasingly common among teenagers due to the widespread use of smartphones. Many teenagers spend several hours each day scrolling through social media apps designed to maximise engagement. Research has linked this heavy usage to higher rates of anxiety and disrupted sleep patterns. Reduced face-to-face social interaction has also been associated with prolonged screen use. Encouraging structured screen-time limits could help mitigate these negative effects on teenage wellbeing."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "As a result, several cities have begun piloting autonomous vehicles on public roads.",
+                    "B": "Companies have invested heavily in sensor and machine learning systems capable of navigating complex road conditions.",
+                    "C": "Clear regulatory frameworks will be essential before self-driving vehicles can be adopted on a wider scale.",
+                    "D": "The development of self-driving vehicle technology has advanced rapidly over the past decade.",
+                    "E": "These trials have raised new questions about legal liability in the event of an accident."
+                },
+                "correct": "D-B-A-E-C",
+                "explanation": "Thứ tự đúng: The development of self-driving vehicle technology has advanced rapidly over the past decade. Companies have invested heavily in sensor and machine learning systems capable of navigating complex road conditions. As a result, several cities have begun piloting autonomous vehicles on public roads. These trials have raised new questions about legal liability in the event of an accident. Clear regulatory frameworks will be essential before self-driving vehicles can be adopted on a wider scale."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "environment",
+        "writing_task": 2,
+        "criterion": "coherence_cohesion",
+        "error_code": "multiple_central_topics_in_one_paragraph",
+        "frequency": 2,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Childhood obesity has become a serious problem in recent years. What are the primary causes of this? What measures should be taken to reduce childhood obesity?",
+                    "question_type": "2_part_question"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Bài viết đề cập đến giải pháp ngay trong đoạn phân tích nguyên nhân, rồi lại quay lại nêu thêm nguyên nhân khác ở đoạn được dành cho giải pháp, khiến cấu trúc hai phần của bài (nguyên nhân - giải pháp) bị lẫn lộn, khó theo dõi."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Some people believe that professional athletes serve as positive role models for young people, while others argue that their behavior both on and off the field can have a negative influence. Discuss both sides and give your opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Các câu về mặt tích cực và tiêu cực của vận động viên bị xen kẽ lộn xộn trong cùng một đoạn thay vì được tách thành hai đoạn riêng biệt"
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_ro_01",
+            "type": "reorder",
+            "ai_grading": false,
+            "error_code": "multiple_central_topics_in_one_paragraph",
+            "difficulty": "B2",
+            "topic": "environment",
+            "instruction": "Sắp xếp các câu đã cho theo thứ tự hợp lý để tạo thành một đoạn văn mạch lạc.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc sắp xếp lại các câu xoay quanh một ý chính thành đoạn văn mạch lạc giúp bạn luyện gom các câu cùng chủ đề vào một đoạn, khắc phục lỗi trộn nguyên nhân với giải pháp hoặc trộn ưu điểm với nhược điểm trong cùng một đoạn như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "As forest cover disappears, vast amounts of carbon dioxide stored in trees are released into the atmosphere.",
+                    "B": "Deforestation has accelerated dramatically over the past few decades, particularly in tropical regions.",
+                    "C": "Unless stricter land-use regulations are enforced, these environmental losses are likely to continue at an alarming pace.",
+                    "D": "Much of this land clearance is driven by the expansion of commercial agriculture, especially cattle ranching and soybean farming.",
+                    "E": "This loss of forest also destroys the habitats of countless plant and animal species, many of which are already endangered."
+                },
+                "correct": "B-D-A-E-C",
+                "explanation": "Thứ tự đúng: Deforestation has accelerated dramatically over the past few decades, particularly in tropical regions. Much of this land clearance is driven by the expansion of commercial agriculture, especially cattle ranching and soybean farming. As forest cover disappears, vast amounts of carbon dioxide stored in trees are released into the atmosphere. This loss of forest also destroys the habitats of countless plant and animal species, many of which are already endangered. Unless stricter land-use regulations are enforced, these environmental losses are likely to continue at an alarming pace."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "These microplastics eventually enter the human food chain through the consumption of seafood.",
+                    "B": "Much of this waste originates from land-based sources, including improperly managed landfills and littering in coastal areas.",
+                    "C": "Plastic pollution has become one of the most visible environmental crises affecting the world's oceans.",
+                    "D": "Without significant investment in waste management infrastructure, the volume of ocean plastic will likely continue to rise.",
+                    "E": "Once in the ocean, plastic debris breaks down into microplastics that are ingested by marine organisms."
+                },
+                "correct": "C-B-E-A-D",
+                "explanation": "Thứ tự đúng: Plastic pollution has become one of the most visible environmental crises affecting the world's oceans. Much of this waste originates from land-based sources, including improperly managed landfills and littering in coastal areas. Once in the ocean, plastic debris breaks down into microplastics that are ingested by marine organisms. These microplastics eventually enter the human food chain through the consumption of seafood. Without significant investment in waste management infrastructure, the volume of ocean plastic will likely continue to rise."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Addressing these financial and infrastructural barriers will be essential if renewable energy is to become the dominant power source.",
+                    "B": "In addition, outdated electrical grids in many countries are not equipped to handle the variable output of renewable sources.",
+                    "C": "Despite its long-term environmental benefits, renewable energy adoption remains slower than many experts had hoped.",
+                    "D": "As a result, many regions continue to rely heavily on fossil fuels to meet growing energy demand.",
+                    "E": "One major obstacle is the high upfront cost of installing solar panels or wind turbines, which many households cannot afford."
+                },
+                "correct": "C-E-B-D-A",
+                "explanation": "Thứ tự đúng: Despite its long-term environmental benefits, renewable energy adoption remains slower than many experts had hoped. One major obstacle is the high upfront cost of installing solar panels or wind turbines, which many households cannot afford. In addition, outdated electrical grids in many countries are not equipped to handle the variable output of renewable sources. As a result, many regions continue to rely heavily on fossil fuels to meet growing energy demand. Addressing these financial and infrastructural barriers will be essential if renewable energy is to become the dominant power source."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Diesel engines, in particular, release high levels of nitrogen oxides and fine particulate matter into the air.",
+                    "B": "Children and elderly residents living near busy roads are especially vulnerable to these health risks.",
+                    "C": "Expanding low-emission zones could help reduce the amount of harmful pollutants released in densely populated areas.",
+                    "D": "Vehicle emissions remain one of the leading contributors to poor air quality in major cities.",
+                    "E": "Prolonged exposure to these pollutants has been linked to increased rates of asthma and other respiratory illnesses."
+                },
+                "correct": "D-A-E-B-C",
+                "explanation": "Thứ tự đúng: Vehicle emissions remain one of the leading contributors to poor air quality in major cities. Diesel engines, in particular, release high levels of nitrogen oxides and fine particulate matter into the air. Prolonged exposure to these pollutants has been linked to increased rates of asthma and other respiratory illnesses. Children and elderly residents living near busy roads are especially vulnerable to these health risks. Expanding low-emission zones could help reduce the amount of harmful pollutants released in densely populated areas."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Without these algae, corals turn white and become significantly more vulnerable to disease.",
+                    "B": "Coral reefs around the world are experiencing increasingly frequent bleaching events.",
+                    "C": "Repeated bleaching events over short periods of time can ultimately lead to the complete death of a reef system.",
+                    "D": "This phenomenon occurs when rising sea temperatures cause corals to expel the algae that give them both color and nutrients.",
+                    "E": "Limiting global temperature rise remains the most effective long-term strategy for protecting coral reef ecosystems."
+                },
+                "correct": "B-D-A-C-E",
+                "explanation": "Thứ tự đúng: Coral reefs around the world are experiencing increasingly frequent bleaching events. This phenomenon occurs when rising sea temperatures cause corals to expel the algae that give them both color and nutrients. Without these algae, corals turn white and become significantly more vulnerable to disease. Repeated bleaching events over short periods of time can ultimately lead to the complete death of a reef system. Limiting global temperature rise remains the most effective long-term strategy for protecting coral reef ecosystems."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Overfishing has placed enormous pressure on marine ecosystems across the globe.",
+                    "B": "This imbalance has led to the collapse of several major fish stocks, including cod and tuna populations in certain regions.",
+                    "C": "Industrial fishing fleets often use techniques that capture far more fish than natural populations can replenish.",
+                    "D": "The decline of key species also disrupts the broader marine food chain, affecting predators and prey alike.",
+                    "E": "Implementing stricter fishing quotas is widely regarded as essential for allowing depleted populations to recover."
+                },
+                "correct": "A-C-B-D-E",
+                "explanation": "Thứ tự đúng: Overfishing has placed enormous pressure on marine ecosystems across the globe. Industrial fishing fleets often use techniques that capture far more fish than natural populations can replenish. This imbalance has led to the collapse of several major fish stocks, including cod and tuna populations in certain regions. The decline of key species also disrupts the broader marine food chain, affecting predators and prey alike. Implementing stricter fishing quotas is widely regarded as essential for allowing depleted populations to recover."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Most of this discarded clothing ends up in landfills, where synthetic fibres can take hundreds of years to decompose.",
+                    "B": "Encouraging consumers to buy fewer, higher-quality garments could help slow the pace of textile waste production.",
+                    "C": "Garments are now produced and discarded at an unprecedented rate, often after being worn only a handful of times.",
+                    "D": "The fast fashion industry has dramatically increased the volume of textile waste generated each year.",
+                    "E": "The manufacturing process itself also consumes vast quantities of water and releases harmful chemical dyes into local waterways."
+                },
+                "correct": "D-C-A-E-B",
+                "explanation": "Thứ tự đúng: The fast fashion industry has dramatically increased the volume of textile waste generated each year. Garments are now produced and discarded at an unprecedented rate, often after being worn only a handful of times. Most of this discarded clothing ends up in landfills, where synthetic fibres can take hundreds of years to decompose. The manufacturing process itself also consumes vast quantities of water and releases harmful chemical dyes into local waterways. Encouraging consumers to buy fewer, higher-quality garments could help slow the pace of textile waste production."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Heavy machinery used during planting and harvesting further compacts the soil, limiting water absorption.",
+                    "B": "Intensive agricultural practices have contributed significantly to soil degradation in many farming regions.",
+                    "C": "Adopting crop rotation and reduced tillage methods could help restore soil health over the long term.",
+                    "D": "The repeated use of chemical fertilisers gradually strips the soil of essential nutrients needed for healthy plant growth.",
+                    "E": "Over time, this nutrient depletion reduces crop yields, forcing farmers to apply even more fertiliser to compensate."
+                },
+                "correct": "B-D-E-A-C",
+                "explanation": "Thứ tự đúng: Intensive agricultural practices have contributed significantly to soil degradation in many farming regions. The repeated use of chemical fertilisers gradually strips the soil of essential nutrients needed for healthy plant growth. Over time, this nutrient depletion reduces crop yields, forcing farmers to apply even more fertiliser to compensate. Heavy machinery used during planting and harvesting further compacts the soil, limiting water absorption. Adopting crop rotation and reduced tillage methods could help restore soil health over the long term."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Agricultural communities that depend on consistent irrigation are among the hardest hit by these shortages.",
+                    "B": "Investing in more efficient irrigation systems could help communities cope with increasingly limited water supplies.",
+                    "C": "Water scarcity has become an increasingly urgent issue in regions affected by shifting climate patterns.",
+                    "D": "In some areas, competition over dwindling water resources has even led to tension between neighbouring communities.",
+                    "E": "Reduced and unpredictable rainfall has left many rivers and reservoirs at critically low levels."
+                },
+                "correct": "C-E-A-D-B",
+                "explanation": "Thứ tự đúng: Water scarcity has become an increasingly urgent issue in regions affected by shifting climate patterns. Reduced and unpredictable rainfall has left many rivers and reservoirs at critically low levels. Agricultural communities that depend on consistent irrigation are among the hardest hit by these shortages. In some areas, competition over dwindling water resources has even led to tension between neighbouring communities. Investing in more efficient irrigation systems could help communities cope with increasingly limited water supplies."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Much of this discarded electronic equipment contains hazardous materials, such as lead and mercury, that can contaminate soil and water.",
+                    "B": "Consumers frequently replace smartphones, laptops, and other gadgets long before they stop functioning properly.",
+                    "C": "Establishing formal recycling programmes could significantly reduce the environmental and health risks associated with e-waste.",
+                    "D": "The growing demand for new electronic devices has led to a sharp rise in electronic waste worldwide.",
+                    "E": "In many countries, informal recycling operations expose workers to these toxic substances without adequate protective measures."
+                },
+                "correct": "D-B-A-E-C",
+                "explanation": "Thứ tự đúng: The growing demand for new electronic devices has led to a sharp rise in electronic waste worldwide. Consumers frequently replace smartphones, laptops, and other gadgets long before they stop functioning properly. Much of this discarded electronic equipment contains hazardous materials, such as lead and mercury, that can contaminate soil and water. In many countries, informal recycling operations expose workers to these toxic substances without adequate protective measures. Establishing formal recycling programmes could significantly reduce the environmental and health risks associated with e-waste."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "education",
+        "writing_task": 2,
+        "criterion": "coherence_cohesion",
+        "error_code": "multiple_central_topics_in_one_paragraph",
+        "frequency": 3,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Childhood obesity has become a serious problem in recent years. What are the primary causes of this? What measures should be taken to reduce childhood obesity?",
+                    "question_type": "2_part_question"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Bài viết đề cập đến giải pháp ngay trong đoạn phân tích nguyên nhân, rồi lại quay lại nêu thêm nguyên nhân khác ở đoạn được dành cho giải pháp, khiến cấu trúc hai phần của bài (nguyên nhân - giải pháp) bị lẫn lộn, khó theo dõi."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Some people believe that professional athletes serve as positive role models for young people, while others argue that their behavior both on and off the field can have a negative influence. Discuss both sides and give your opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Các câu về mặt tích cực và tiêu cực của vận động viên bị xen kẽ lộn xộn trong cùng một đoạn thay vì được tách thành hai đoạn riêng biệt"
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_ro_03",
+            "type": "reorder",
+            "ai_grading": false,
+            "error_code": "multiple_central_topics_in_one_paragraph",
+            "difficulty": "B2",
+            "topic": "education",
+            "instruction": "Sắp xếp các câu đã cho theo thứ tự hợp lý để tạo thành một đoạn văn mạch lạc.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc tìm câu chủ đề và sắp xếp các câu triển khai theo thứ tự giúp bạn xây dựng mỗi đoạn văn quanh đúng một ý trung tâm, khắc phục lỗi đặt giải pháp trong đoạn nguyên nhân hoặc để mặt tích cực và tiêu cực xen kẽ trong một đoạn như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "As a result, teachers frequently narrow their lessons to focus on exam-specific content.",
+                    "B": "The heavy emphasis on standardized testing in many school systems has significantly shaped how teachers approach their lessons.",
+                    "C": "Adopting more holistic assessment methods could help address these unintended consequences.",
+                    "D": "Schools often face pressure to improve test scores in order to secure funding and maintain their reputation.",
+                    "E": "This narrow focus can leave students underprepared for real-world problem solving beyond the classroom."
+                },
+                "correct": "B-D-A-E-C",
+                "explanation": "Thứ tự đúng: The heavy emphasis on standardized testing in many school systems has significantly shaped how teachers approach their lessons. Schools often face pressure to improve test scores in order to secure funding and maintain their reputation. As a result, teachers frequently narrow their lessons to focus on exam-specific content. This narrow focus can leave students underprepared for real-world problem solving beyond the classroom. Adopting more holistic assessment methods could help address these unintended consequences."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Students in these schools frequently have reduced access to specialised subjects such as science and foreign languages.",
+                    "B": "Lower salaries and limited professional development opportunities make rural teaching positions less appealing compared to urban schools.",
+                    "C": "Many rural schools around the world are struggling to attract and retain qualified teachers.",
+                    "D": "Offering targeted financial incentives could help attract more educators to rural areas.",
+                    "E": "This shortage often results in significantly larger class sizes in affected schools."
+                },
+                "correct": "C-B-E-A-D",
+                "explanation": "Thứ tự đúng: Many rural schools around the world are struggling to attract and retain qualified teachers. Lower salaries and limited professional development opportunities make rural teaching positions less appealing compared to urban schools. This shortage often results in significantly larger class sizes in affected schools. Students in these schools frequently have reduced access to specialised subjects such as science and foreign languages. Offering targeted financial incentives could help attract more educators to rural areas."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Expanding access to bilingual education could help more students gain these cognitive and cultural benefits.",
+                    "B": "As a result, students in bilingual programmes often outperform their peers on certain cognitive tasks.",
+                    "C": "Bilingual education programmes have been shown to improve students' cognitive flexibility and problem-solving abilities.",
+                    "D": "These students also tend to develop stronger cultural awareness and empathy toward people from different backgrounds.",
+                    "E": "Learning a second language from an early age strengthens neural pathways associated with memory and multitasking."
+                },
+                "correct": "C-E-B-D-A",
+                "explanation": "Thứ tự đúng: Bilingual education programmes have been shown to improve students' cognitive flexibility and problem-solving abilities. Learning a second language from an early age strengthens neural pathways associated with memory and multitasking. As a result, students in bilingual programmes often outperform their peers on certain cognitive tasks. These students also tend to develop stronger cultural awareness and empathy toward people from different backgrounds. Expanding access to bilingual education could help more students gain these cognitive and cultural benefits."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Budget constraints in many public school systems have made it increasingly difficult to hire additional teaching staff.",
+                    "B": "This makes it difficult to identify and address individual learning difficulties in a timely manner.",
+                    "C": "Reducing average class sizes could help teachers provide more personalised support to struggling students.",
+                    "D": "Large class sizes can significantly limit the amount of individual attention teachers are able to give each student.",
+                    "E": "As a result, one teacher is often responsible for managing dozens of students at once."
+                },
+                "correct": "D-A-E-B-C",
+                "explanation": "Thứ tự đúng: Large class sizes can significantly limit the amount of individual attention teachers are able to give each student. Budget constraints in many public school systems have made it increasingly difficult to hire additional teaching staff. As a result, one teacher is often responsible for managing dozens of students at once. This makes it difficult to identify and address individual learning difficulties in a timely manner. Reducing average class sizes could help teachers provide more personalised support to struggling students."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "However, large volumes of nightly assignments can leave children with little time for rest or unstructured play.",
+                    "B": "Excessive homework has become a growing source of stress for many primary school students.",
+                    "C": "This imbalance has been linked to increased anxiety and reduced enthusiasm for learning among young students.",
+                    "D": "Teachers often assign homework to reinforce classroom learning and encourage independent study habits.",
+                    "E": "Setting reasonable limits on homework could help protect students' overall wellbeing."
+                },
+                "correct": "B-D-A-C-E",
+                "explanation": "Thứ tự đúng: Excessive homework has become a growing source of stress for many primary school students. Teachers often assign homework to reinforce classroom learning and encourage independent study habits. However, large volumes of nightly assignments can leave children with little time for rest or unstructured play. This imbalance has been linked to increased anxiety and reduced enthusiasm for learning among young students. Setting reasonable limits on homework could help protect students' overall wellbeing."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Parental involvement plays a significant role in shaping a child's academic achievement throughout their schooling years.",
+                    "B": "As a result, these children often perform better academically than their less-supported peers.",
+                    "C": "Children whose parents regularly engage with their homework and school activities tend to receive more consistent support at home.",
+                    "D": "This involvement also helps children develop stronger study habits and a more positive attitude toward learning.",
+                    "E": "Schools could strengthen these benefits by offering more resources to help parents engage effectively with their children's education."
+                },
+                "correct": "A-C-B-D-E",
+                "explanation": "Thứ tự đúng: Parental involvement plays a significant role in shaping a child's academic achievement throughout their schooling years. Children whose parents regularly engage with their homework and school activities tend to receive more consistent support at home. As a result, these children often perform better academically than their less-supported peers. This involvement also helps children develop stronger study habits and a more positive attitude toward learning. Schools could strengthen these benefits by offering more resources to help parents engage effectively with their children's education."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "As a result, universities have increasingly relied on tuition fees to cover their operating costs.",
+                    "B": "Increasing public investment in universities could help make higher education more affordable for all students.",
+                    "C": "Government funding for public universities has declined in several countries over the past decade.",
+                    "D": "Rising university tuition fees have become a significant barrier to higher education for many students.",
+                    "E": "This shift has made higher education increasingly inaccessible for students from low-income families."
+                },
+                "correct": "D-C-A-E-B",
+                "explanation": "Thứ tự đúng: Rising university tuition fees have become a significant barrier to higher education for many students. Government funding for public universities has declined in several countries over the past decade. As a result, universities have increasingly relied on tuition fees to cover their operating costs. This shift has made higher education increasingly inaccessible for students from low-income families. Increasing public investment in universities could help make higher education more affordable for all students."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "Exposure to different languages also helps students develop greater empathy and understanding of other cultures.",
+                    "B": "Studying a foreign language provides students with significant cognitive and cultural benefits.",
+                    "C": "Making foreign language study compulsory could help more students access these long-term cognitive benefits.",
+                    "D": "Learning another language requires students to constantly switch between different linguistic systems.",
+                    "E": "This mental exercise has been shown to improve memory and problem-solving skills over time."
+                },
+                "correct": "B-D-E-A-C",
+                "explanation": "Thứ tự đúng: Studying a foreign language provides students with significant cognitive and cultural benefits. Learning another language requires students to constantly switch between different linguistic systems. This mental exercise has been shown to improve memory and problem-solving skills over time. Exposure to different languages also helps students develop greater empathy and understanding of other cultures. Making foreign language study compulsory could help more students access these long-term cognitive benefits."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "As a result, students who struggle with exam anxiety may perform poorly despite understanding the material well.",
+                    "B": "Shifting toward continuous assessment could help ensure that grades more accurately reflect genuine understanding.",
+                    "C": "Many educators argue that continuous assessment provides a more accurate reflection of student learning than final exams.",
+                    "D": "Continuous assessment, by contrast, allows teachers to track student progress and identify learning gaps over time.",
+                    "E": "Final exams primarily test how much information students can recall under time pressure on a single day."
+                },
+                "correct": "C-E-A-D-B",
+                "explanation": "Thứ tự đúng: Many educators argue that continuous assessment provides a more accurate reflection of student learning than final exams. Final exams primarily test how much information students can recall under time pressure on a single day. As a result, students who struggle with exam anxiety may perform poorly despite understanding the material well. Continuous assessment, by contrast, allows teachers to track student progress and identify learning gaps over time. Shifting toward continuous assessment could help ensure that grades more accurately reflect genuine understanding."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Sắp xếp các câu sau theo đúng thứ tự để tạo thành một đoạn văn mạch lạc:",
+                "options": {
+                    "A": "As a result, many schools have adopted uniform policies to minimise social pressure related to clothing choices.",
+                    "B": "Supporters argue that uniforms reduce visible signs of economic inequality among students.",
+                    "C": "Finding a balance between equality and self-expression remains a key challenge for schools considering uniform policies.",
+                    "D": "The debate over school uniforms continues to divide parents, students, and educators.",
+                    "E": "Critics, however, argue that uniforms can limit students' ability to express their individual identity."
+                },
+                "correct": "D-B-A-E-C",
+                "explanation": "Thứ tự đúng: The debate over school uniforms continues to divide parents, students, and educators. Supporters argue that uniforms reduce visible signs of economic inequality among students. As a result, many schools have adopted uniform policies to minimise social pressure related to clothing choices. Critics, however, argue that uniforms can limit students' ability to express their individual identity. Finding a balance between equality and self-expression remains a key challenge for schools considering uniform policies."
+            }
+        ]
+    }
+}

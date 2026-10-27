@@ -1,0 +1,274 @@
+{
+    "input": {
+        "topic": "environment",
+        "writing_task": 2,
+        "criterion": "grammar_range_accuracy",
+        "error_code": "tense",
+        "frequency": 1,
+        "references": [
+            {
+                "question": {
+                    "prompt": "In some countries, people spend long hours at work. Why does this happen? Is it positive or negative development?",
+                    "question_type": "2_part_question"
+                },
+                "comments": [
+                    {
+                        "quote": "More and more people worked overtime because companies demand higher productivity.",
+                        "explanation": "Đây là một thực trạng đã và đang xảy ra, chưa có dấu hiệu chấm dứt, cần sử dụng thì hiện tại hoàn thành để diễn đạt chính xác."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "The government should support old building restoration or invest in the construction of new houses, offices and roads. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "Old buildings restore every year to preserve cultural heritage.",
+                        "explanation": "Chủ ngữ \"Old buildings\" không thể tự thực hiện hành động \"restore\" (trùng tu), câu đúng phải là dạng bị động"
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_sw_07",
+            "type": "short_writing",
+            "ai_grading": true,
+            "error_code": "tense",
+            "difficulty": "B2",
+            "topic": "environment",
+            "instruction": "Dịch các câu sau từ tiếng Việt sang tiếng Anh, chú ý lựa chọn đúng thì và cấu trúc câu (chủ động/bị động) phù hợp với ngữ cảnh. Câu dịch phải tự nhiên và phù hợp với văn phong IELTS Writing Task 2.",
+            "number_of_questions": 3,
+            "rationale_for_exercise": "Việc tự dịch các câu có dấu hiệu thời gian như 'trong suốt thập kỷ qua' và có chủ ngữ chịu tác động giúp bạn luyện chọn đúng thì hiện tại hoàn thành và thể bị động khi tự viết, khắc phục lỗi dùng quá khứ đơn 'worked' cho thực trạng vẫn đang tiếp diễn và câu chủ động sai 'Old buildings restore' như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Trong suốt thập kỷ qua, ngày càng nhiều thành phố đã áp dụng các chính sách nghiêm ngặt hơn để giảm thiểu ô nhiễm không khí.",
+                "hint": [
+                    "have adopted",
+                    "stricter policies",
+                    "reduce air pollution"
+                ],
+                "correct": {
+                    "sample_answer": "Over the past decade, more and more cities have adopted stricter policies to reduce air pollution.",
+                    "ai_grading_rubric": "Chấm điểm bài dịch trên thang 1–10 dựa trên ba tiêu chí sau: (1) Thì động từ — học sinh có nhận diện đúng đây là một thực trạng bắt đầu trong quá khứ và vẫn tiếp diễn đến hiện tại (được gợi ý qua 'trong suốt thập kỷ qua') để dùng đúng thì hiện tại hoàn thành 'have adopted' không, tránh dùng quá khứ đơn 'adopted'; (2) Từ vựng — có dùng 'stricter policies' và 'reduce air pollution' tự nhiên, phù hợp văn phong học thuật không; (3) Ngữ pháp — cấu trúc câu còn lại có chính xác không, đặc biệt cụm 'more and more + noun' để diễn tả xu hướng tăng dần. Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu đúng thì nhưng còn lỗi nhỏ về từ vựng; 5–6 nếu dùng sai thì (quá khứ đơn hoặc hiện tại đơn) nhưng ý đúng; dưới 5 nếu sai thì và cấu trúc câu không rõ ràng."
+                },
+                "explanation": "Câu trả lời mẫu: Over the past decade, more and more cities have adopted stricter policies to reduce air pollution.\n\nCụm 'trong suốt thập kỷ qua' báo hiệu một hành động bắt đầu trong quá khứ và còn tiếp diễn đến hiện tại, cần dùng thì hiện tại hoàn thành 'have adopted', không dùng quá khứ đơn 'adopted' như lỗi trong reference gốc."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Mỗi năm, hàng nghìn héc-ta rừng bị chặt phá để lấy đất canh tác nông nghiệp.",
+                "hint": [
+                    "are cleared",
+                    "make way for",
+                    "agricultural land"
+                ],
+                "correct": {
+                    "sample_answer": "Every year, thousands of hectares of forest are cleared to make way for agricultural land.",
+                    "ai_grading_rubric": "Chấm điểm bài dịch trên thang 1–10 dựa trên ba tiêu chí sau: (1) Cấu trúc câu — học sinh có nhận diện đúng chủ ngữ 'rừng' là đối tượng chịu tác động của hành động chặt phá (không tự thực hiện hành động) để dùng đúng câu bị động 'are cleared' không, tránh dùng chủ động 'clear'; (2) Từ vựng — có dùng 'agricultural land' hoặc cụm tương đương tự nhiên, phù hợp văn phong học thuật không; (3) Ngữ pháp — cấu trúc câu bị động có đầy đủ trợ động từ 'be' và phân từ quá khứ 'cleared' không, cụm 'to make way for' có dùng đúng không. Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu đúng câu bị động nhưng còn lỗi nhỏ về từ vựng; 5–6 nếu dùng sai cấu trúc (chủ động thay vì bị động) nhưng ý đúng; dưới 5 nếu sai cấu trúc và ngữ pháp nghiêm trọng."
+                },
+                "explanation": "Câu trả lời mẫu: Every year, thousands of hectares of forest are cleared to make way for agricultural land.\n\n'Rừng' không thể tự thực hiện hành động 'chặt phá', nên câu phải ở dạng bị động 'are cleared', giống lỗi chủ động sai trong reference gốc ('Old buildings restore' thay vì 'are restored')."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Trong những năm gần đây, nhiều loài động vật hoang dã đã bị đẩy đến bờ vực tuyệt chủng do mất môi trường sống.",
+                "hint": [
+                    "have been pushed",
+                    "brink of extinction",
+                    "habitat loss"
+                ],
+                "correct": {
+                    "sample_answer": "In recent years, many wildlife species have been pushed to the brink of extinction due to habitat loss.",
+                    "ai_grading_rubric": "Chấm điểm bài dịch trên thang 1–10 dựa trên ba tiêu chí sau: (1) Thì và thể của động từ — học sinh có kết hợp đúng cả hai yếu tố: thì hiện tại hoàn thành (do 'trong những năm gần đây' báo hiệu quá trình bắt đầu trong quá khứ và tiếp diễn đến hiện tại) và thể bị động (do 'loài động vật' là đối tượng chịu tác động) để tạo thành 'have been pushed' không; (2) Từ vựng — có dùng 'brink of extinction' và 'habitat loss' là các collocation chuẩn, tự nhiên không; (3) Ngữ pháp — cấu trúc hiện tại hoàn thành bị động 'have/has been + V3' có chính xác không. Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu đúng một trong hai yếu tố (thì hoặc thể) nhưng còn lỗi ở yếu tố còn lại; 5–6 nếu chỉ đúng ý nhưng sai cả thì lẫn thể; dưới 5 nếu câu dịch sai nghiêm trọng về ngữ pháp."
+                },
+                "explanation": "Câu trả lời mẫu: In recent years, many wildlife species have been pushed to the brink of extinction due to habitat loss.\n\nCâu này kết hợp cả hai lỗi trong reference gốc: cần thì hiện tại hoàn thành (do hành động vẫn đang tiếp diễn) và thể bị động (do 'loài động vật' không tự thực hiện hành động 'đẩy'), tạo thành cấu trúc 'have been pushed'."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "lexical_resource",
+        "error_code": "limited_grammatical_range",
+        "frequency": 2,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Some people believe that reading stories from a book is better than watching TV or playing computer games for children. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Đoạn văn chỉ sử dụng toàn câu đơn (simple sentences) liên tiếp nhau mà không có sự kết hợp với câu phức."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Many people living in cities these days do not get enough physical exercise. What are the causes of this? What are some possible solutions?",
+                    "question_type": "2_part_question"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Bài viết được cấu thành chủ yếu từ câu đơn, chỉ có duy nhất 2 câu phức trong toàn bài."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_sw_05",
+            "type": "short_writing",
+            "ai_grading": true,
+            "error_code": "limited_grammatical_range",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Đặt một câu về chủ đề technology sử dụng đúng cấu trúc câu phức được cho. Nội dung câu tự do trong phạm vi chủ đề technology, miễn là đúng cấu trúc ngữ pháp yêu cầu.",
+            "number_of_questions": 3,
+            "rationale_for_exercise": "Việc tự đặt câu theo các mẫu câu phức cho sẵn (mệnh đề quan hệ, although, câu điều kiện…) giúp bạn chủ động đa dạng hóa cấu trúc khi viết, khắc phục lỗi dùng toàn câu đơn liên tiếp, gần như không có câu phức như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "S, which + V, ...",
+                "hint": [
+                    "artificial intelligence",
+                    "automation",
+                    "data privacy"
+                ],
+                "correct": {
+                    "sample_answer": "Artificial intelligence, which has advanced rapidly over the past few years, is now capable of performing tasks once thought to require human intelligence.",
+                    "ai_grading_rubric": "Chấm điểm trên thang 1–10 dựa trên ba tiêu chí sau: (1) Cấu trúc — câu có đúng dùng mệnh đề quan hệ không xác định 'S, which + V, ...' không, dấu phẩy có được đặt đúng vị trí bao quanh mệnh đề chen giữa không; (2) Nội dung — câu có liên quan đến chủ đề công nghệ và mang ý nghĩa hợp lý, tự nhiên không; (3) Ngữ pháp — các thành phần còn lại của câu (chủ ngữ, động từ chính, thì) có chính xác không. Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu đúng cấu trúc nhưng còn lỗi nhỏ về ngữ pháp; 5–6 nếu cấu trúc chưa chuẩn (VD: thiếu dấu phẩy, dùng 'that' thay 'which' sau dấu phẩy); dưới 5 nếu không sử dụng đúng cấu trúc được yêu cầu."
+                },
+                "explanation": "Câu trả lời mẫu: Artificial intelligence, which has advanced rapidly over the past few years, is now capable of performing tasks once thought to require human intelligence.\n\nMệnh đề quan hệ không xác định 'which has advanced rapidly over the past few years' cung cấp thêm thông tin về 'artificial intelligence' mà không giới hạn nghĩa của danh từ đó, đúng với cấu trúc 'S, which + V, ...'."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Although + S + V, S + V.",
+                "hint": [
+                    "smartphones",
+                    "screen time",
+                    "social interaction"
+                ],
+                "correct": {
+                    "sample_answer": "Although smartphones have made communication far more convenient, they have also been linked to a noticeable decline in face-to-face social interaction.",
+                    "ai_grading_rubric": "Chấm điểm trên thang 1–10 dựa trên ba tiêu chí sau: (1) Cấu trúc — câu có đúng dùng mệnh đề nhượng bộ 'Although + S + V' đứng đầu câu, theo sau bởi dấu phẩy và mệnh đề chính 'S + V' không; (2) Nội dung — câu có liên quan đến chủ đề công nghệ, thể hiện đúng quan hệ tương phản/nhượng bộ giữa hai mệnh đề không; (3) Ngữ pháp — hai mệnh đề có đầy đủ chủ ngữ, động từ, đúng thì không. Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu đúng cấu trúc nhưng còn lỗi nhỏ; 5–6 nếu thiếu dấu phẩy hoặc quan hệ tương phản giữa hai mệnh đề không rõ ràng; dưới 5 nếu không sử dụng đúng cấu trúc được yêu cầu."
+                },
+                "explanation": "Câu trả lời mẫu: Although smartphones have made communication far more convenient, they have also been linked to a noticeable decline in face-to-face social interaction.\n\nMệnh đề 'Although smartphones have made communication far more convenient' nêu một sự thật tích cực, đối lập với mệnh đề chính nêu một hạn chế còn tồn tại, đúng với chức năng nhượng bộ của 'although'."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "If + S + V (past simple), S + would + V.",
+                "hint": [
+                    "cybersecurity",
+                    "data breaches",
+                    "tech companies"
+                ],
+                "correct": {
+                    "sample_answer": "If tech companies invested more heavily in cybersecurity, data breaches would occur far less frequently.",
+                    "ai_grading_rubric": "Chấm điểm trên thang 1–10 dựa trên ba tiêu chí sau: (1) Cấu trúc — mệnh đề if có chia đúng thì quá khứ đơn không, mệnh đề chính có dùng đúng 'would + động từ nguyên mẫu' không (đây là câu điều kiện loại 2); (2) Nội dung — câu có liên quan đến chủ đề công nghệ, mang ý nghĩa hợp lý về mặt giả định không; (3) Ngữ pháp — các thành phần còn lại của câu có chính xác không. Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu đúng cấu trúc nhưng còn lỗi nhỏ; 5–6 nếu chia sai thì ở một trong hai mệnh đề (VD: dùng 'will' thay vì 'would', hoặc dùng hiện tại đơn ở mệnh đề if); dưới 5 nếu không sử dụng đúng cấu trúc được yêu cầu."
+                },
+                "explanation": "Câu trả lời mẫu: If tech companies invested more heavily in cybersecurity, data breaches would occur far less frequently.\n\nĐây là câu điều kiện loại 2: mệnh đề if chia quá khứ đơn 'invested' diễn tả một giả định trái với hiện tại, mệnh đề chính dùng 'would occur' đúng cấu trúc 'would + V nguyên mẫu'."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "Lexical Resource",
+        "error_code": "collocation",
+        "frequency": 3,
+        "references": [
+            {
+                "question": {
+                    "prompt": "The best way to solve the world's environmental problem is to increase the cost of fuel for cars and other vehicles. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": {
+                    "quote": "Forests do a crucial role in absorbing carbon dioxide and regulating the Earth's climate.",
+                    "explanation": "Collocation đúng phải là 'play a crucial role'."
+                }
+            },
+            {
+                "question": {
+                    "prompt": "Innovation is often driven by the pursuit of profit and economic growth. However, some argue that it should prioritize addressing social and environmental issues. Discuss both sides and give your own opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": {
+                    "quote": "Governments must make measures to reduce greenhouse gas emissions before it is too late.",
+                    "explanation": "Collocation đúng phải là 'take measures' để diễn tả hành động cụ thể được thực hiện để giải quyết vấn đề."
+                }
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "sample_02",
+            "type": "short_writing",
+            "ai_grading": true,
+            "error_code": "collocation",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Dịch các câu sau từ tiếng Việt sang tiếng Anh. Sử dụng đúng collocation được gợi ý trong phần hint. Câu dịch phải tự nhiên và phù hợp với văn phong IELTS Writing Task 2.",
+            "number_of_questions": 3,
+            "rationale_for_exercise": "Việc tự dịch câu có dùng collocation gợi ý (play a crucial role, take measures…) giúp bạn ghi nhớ các kết hợp từ cố định thông qua việc dùng chúng trong ngữ cảnh, khắc phục lỗi 'do a crucial role' và 'make measures' như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Trí tuệ nhân tạo đóng một vai trò quan trọng trong việc phát hiện sớm các loại bệnh hiểm nghèo, vì vậy việc đầu tư vào công nghệ y tế phải được coi là một ưu tiên chiến lược.",
+                "hint": [
+                    "play a crucial role",
+                    "detect diseases at an early stage",
+                    "strategic priority"
+                ],
+                "correct": {
+                    "sample_answer": "Artificial intelligence plays a crucial role in detecting severe diseases at an early stage, so investment in medical technology must be treated as a strategic priority.",
+                    "ai_grading_rubric": "Chấm điểm bài dịch trên thang 1–10 dựa trên ba tiêu chí sau: (1) Từ vựng — học sinh có sử dụng đúng collocation 'play a crucial role in + V-ing' không, có chọn từ phù hợp với văn phong học thuật IELTS khi diễn đạt 'phát hiện sớm' và 'ưu tiên chiến lược' không, tránh dịch cứng từng từ theo cấu trúc tiếng Việt; (2) Bố cục — câu dịch có mạch lạc, liên kết logic giữa vai trò của AI và sự cần thiết phải đầu tư không; (3) Ngữ pháp — cấu trúc câu có đúng không, đặc biệt chú ý giới từ 'in' trước V-ing sau 'role', và liên từ nối hai mệnh đề (so, therefore, thus). Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu collocation đúng nhưng còn lỗi nhỏ về ngữ pháp hoặc từ vựng; 5–6 nếu ý đúng nhưng collocation sai hoặc câu vụng về; dưới 5 nếu sai collocation và sai ngữ pháp nghiêm trọng."
+                },
+                "explanation": "Câu trả lời mẫu: Artificial intelligence plays a crucial role in detecting severe diseases at an early stage, so investment in medical technology must be treated as a strategic priority.\n\n'Play a crucial role in + V-ing' là collocation chuẩn. Lỗi phổ biến: dùng 'do/make a role' hoặc quên giới từ 'in' trước V-ing."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Các công ty công nghệ phải thực hiện các biện pháp nghiêm ngặt để bảo vệ dữ liệu cá nhân của người dùng trước khi các vụ rò rỉ thông tin gây ra những thiệt hại không thể khắc phục.",
+                "hint": [
+                    "take strict measures",
+                    "protect personal data",
+                    "cause irreparable damage"
+                ],
+                "correct": {
+                    "sample_answer": "Technology companies must take strict measures to protect users' personal data before information leaks cause irreparable damage.",
+                    "ai_grading_rubric": "Chấm điểm bài dịch trên thang 1–10 dựa trên ba tiêu chí sau: (1) Từ vựng — học sinh có sử dụng đúng collocation 'take measures' không (chấp nhận tính từ bổ nghĩa như 'strict', 'urgent', 'effective' đứng giữa 'take' và 'measures'), có dùng 'protect personal data' và 'cause damage' đúng cách không; (2) Bố cục — câu dịch có đủ hai vế rõ ràng: hành động cần làm và hậu quả cần tránh, được nối bằng 'before' đúng vị trí không; (3) Ngữ pháp — mệnh đề 'before' có dùng thì hiện tại đơn đúng không, danh từ số nhiều 'data leaks' hoặc 'information leaks' có chia đúng không. Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu collocation đúng nhưng còn lỗi nhỏ; 5–6 nếu dùng 'make/do measures'; dưới 5 nếu sai collocation và cấu trúc câu không rõ ràng."
+                },
+                "explanation": "Câu trả lời mẫu: Technology companies must take strict measures to protect users' personal data before information leaks cause irreparable damage.\n\n'Take measures' là collocation cố định. Tính từ bổ nghĩa đứng giữa 'take' và 'measures' để tăng tính học thuật."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Mỗi người dùng đều có thể đóng góp đáng kể vào việc xây dựng một môi trường mạng an toàn hơn bằng cách thường xuyên cập nhật phần mềm bảo mật trên các thiết bị cá nhân của mình.",
+                "hint": [
+                    "make a significant contribution",
+                    "update security software",
+                    "personal devices"
+                ],
+                "correct": {
+                    "sample_answer": "Every user can make a significant contribution to building a safer online environment by regularly updating the security software on their personal devices.",
+                    "ai_grading_rubric": "Chấm điểm bài dịch trên thang 1–10 dựa trên ba tiêu chí sau: (1) Từ vựng — học sinh có sử dụng đúng collocation 'make a contribution to' không, có chọn tính từ phù hợp ('significant', 'meaningful', 'valuable') bổ nghĩa cho 'contribution' không, tránh dùng 'do/give a contribution'; (2) Bố cục — câu có cấu trúc rõ ràng với mệnh đề chính và 'by + V-ing' diễn đạt phương tiện/cách thức không; (3) Ngữ pháp — cấu trúc 'by + V-ing' có đúng không, đại từ sở hữu 'their' có được dùng thay vì 'his/her' theo chuẩn học thuật hiện đại không. Cho điểm 9–10 nếu cả ba tiêu chí đều đạt; 7–8 nếu collocation đúng nhưng còn lỗi nhỏ; 5–6 nếu ý đúng nhưng collocation sai; dưới 5 nếu câu dịch không tự nhiên và sai ngữ pháp nghiêm trọng."
+                },
+                "explanation": "Câu trả lời mẫu: Every user can make a significant contribution to building a safer online environment by regularly updating the security software on their personal devices.\n\n'Make a contribution to' là collocation quan trọng trong câu này. Lỗi phổ biến: 'do/give a contribution'."
+            }
+        ]
+    }
+}

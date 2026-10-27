@@ -1,0 +1,508 @@
+{
+    "input": {
+        "topic": "environment",
+        "writing_task": 2,
+        "criterion": "coherence_cohesion",
+        "error_code": "weak_information_flow",
+        "frequency": 1,
+        "references": [
+            {
+                "question": {
+                    "prompt": "In the past, knowledge was contained in books. Nowadays, knowledge is uploaded to the internet. Do the advantages of this outweigh the disadvantages?",
+                    "question_type": "advantage_disadvantage"
+                },
+                "comments": {
+                    "quote": "Navigating through this sea of information requires digital literacy skills to identify between credible and misleading sources. The World Wide Web develop everyday and people can search needed information  faster and faster, usually it takes less than 1 minute because for example google is the most famous research system and it process data just in few seconds.",
+                    "explanation": "Câu trước nói việc tra cứu thông tin trên Internet gặp nhiều bất lợi, câu sau nói Internet phát triển liên tục, và lấy ví dụ rằng Google là hệ thống nổi tiếng nhất. Các thông tin này không liên quan đến nhau, không có mối quan hệ bổ sung, giải thích hay đối nghịch nào."
+                }
+            },
+            {
+                "question": {
+                    "prompt": "Today, many people do not know their neighbours in large cities. What problems does this cause? What can be done about this?",
+                    "question_type": "2_part_question"
+                },
+                "comments": {
+                    "quote": "Since all the people in a nuclear family have a 9-to-5 job, they are hardly getting any time to get acquainted with their neighbors. Furthermore, they get stuck in traffic and spend most of their time commuting. So they will spend the weekends inside their home or may go for some other recreation parties and all.",
+                    "explanation": "Không rõ mối quan hệ giữa thông tin \"mọi người đi làm\" và \"cuối tuần ở nhà\"."
+                }
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "cc_uir_01",
+            "type": "Multiple Choice - Single",
+            "ai_grading": false,
+            "error_code": "weak_information_flow",
+            "difficulty": "B2",
+            "topic": "environment",
+            "instruction": "Đọc câu cho sẵn và chọn câu tiếp theo phù hợp nhất (A, B, C hoặc D) để tạo ra mối quan hệ thông tin rõ ràng và mạch lạc.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn câu tiếp theo kế thừa đúng thông tin của câu cho sẵn giúp bạn luyện nối các câu bằng mối quan hệ nội dung rõ ràng (nhân quả, ví dụ, đối lập), khắc phục lỗi đặt cạnh nhau hai câu không liên quan như trong bài viết (đang nói về khó khăn khi lọc thông tin lại chuyển sang tốc độ tìm kiếm của Google)."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "\"Navigating through this sea of information requires digital literacy skills to identify credible sources.\"",
+                "options": {
+                    "A": "The World Wide Web develops every day and people can search for information faster and faster.",
+                    "B": "Without such skills, users are highly vulnerable to misinformation and online scams.",
+                    "C": "Google is the most famous search engine and processes data within seconds.",
+                    "D": "Many people prefer reading physical books rather than searching online."
+                },
+                "correct": "B",
+                "explanation": "Câu gốc nói rằng người dùng cần kỹ năng đọc số để lọc thông tin đáng tin cậy. Câu B tiếp nối trực tiếp bằng cách nêu hậu quả nếu thiếu kỹ năng đó, tạo mối quan hệ nhân-quả rõ ràng. Câu A và C đưa ra thông tin về tốc độ/công cụ tìm kiếm — không liên quan đến vấn đề độ tin cậy của nguồn thông tin. Câu D đột ngột chuyển sang sở thích đọc sách vật lý, không có liên hệ logic."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "\"Since all the people in a nuclear family have a 9-to-5 job, they are hardly getting any time to get acquainted with their neighbours.\"",
+                "options": {
+                    "A": "Furthermore, they get stuck in traffic and spend most of their time commuting.",
+                    "B": "So they will spend the weekends inside their home or go to recreation parties.",
+                    "C": "As a result, social bonds within communities gradually weaken over time.",
+                    "D": "However, many companies now allow employees to work from home twice a week."
+                },
+                "correct": "C",
+                "explanation": "Câu gốc nêu nguyên nhân (bận rộn với công việc) dẫn đến việc không có thời gian giao lưu với hàng xóm. Câu C là hệ quả trực tiếp và hợp lý: mối quan hệ cộng đồng suy yếu. Câu A nói về kẹt xe — chuyển sang một ý phụ không kết nối rõ ràng với ý chính về hàng xóm. Câu B nhảy sang thói quen cuối tuần mà không có liên hệ logic rõ ràng. Câu D giới thiệu một ý đối lập đột ngột mà không có từ nối phù hợp."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "\"The rapid growth of the internet has made information more accessible than ever before.\"",
+                "options": {
+                    "A": "Many websites now offer free courses on digital marketing and social media management.",
+                    "B": "People in remote areas can now access the same educational resources as those in major cities.",
+                    "C": "The first website was created by Tim Berners-Lee in 1991.",
+                    "D": "Smartphones are becoming more affordable in developing countries."
+                },
+                "correct": "B",
+                "explanation": "Câu gốc khẳng định internet làm thông tin dễ tiếp cận hơn. Câu B cung cấp một ví dụ cụ thể và trực tiếp minh họa điều đó — người ở vùng xa có thể tiếp cận tài nguyên giáo dục. Câu A đưa ra ví dụ về loại khóa học cụ thể, không liên quan trực tiếp đến ý nghĩa \"dễ tiếp cận\". Câu C giới thiệu thông tin lịch sử không bổ sung cho lập luận. Câu D nói về smartphone — đây là chủ đề khác, không có từ nối logic."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "\"Online platforms allow anyone to publish content without editorial oversight.\"",
+                "options": {
+                    "A": "This has led to a significant rise in the spread of unverified and misleading information.",
+                    "B": "Social media companies earn billions of dollars in advertising revenue each year.",
+                    "C": "Many people now prefer watching videos to reading long articles.",
+                    "D": "Digital literacy is an important subject that should be taught in schools."
+                },
+                "correct": "A",
+                "explanation": "Câu gốc nêu một đặc điểm của nền tảng trực tuyến: nội dung không qua kiểm duyệt. Câu A trực tiếp nêu hệ quả của đặc điểm đó — thông tin sai lệch lan rộng. Đây là mối quan hệ nhân-quả rõ ràng. Câu B nói về doanh thu quảng cáo — không liên quan. Câu C nói về thói quen tiêu thụ nội dung — chuyển chủ đề đột ngột. Câu D đề xuất giải pháp quá sớm, chưa xây dựng vấn đề đủ rõ."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "\"Books provide a structured and carefully curated source of knowledge.\"",
+                "options": {
+                    "A": "In contrast, online content is often fragmented, unverified, and difficult to evaluate.",
+                    "B": "Libraries were first established in ancient civilisations such as Egypt and Greece.",
+                    "C": "E-books are becoming increasingly popular among younger generations.",
+                    "D": "Reading habits vary significantly across different cultural and socioeconomic backgrounds."
+                },
+                "correct": "A",
+                "explanation": "Câu gốc ca ngợi sách về tính có cấu trúc và được kiểm duyệt. Câu A tạo ra sự đối lập trực tiếp với nội dung trực tuyến bằng từ \"In contrast\", làm rõ mối quan hệ so sánh. Câu B cung cấp thông tin lịch sử không liên quan đến luận điểm. Câu C nói về sách điện tử — chuyển chủ đề mà không có liên hệ rõ ràng. Câu D nói về thói quen đọc sách theo văn hóa — quá xa với ý chính."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "\"Many urban residents live in apartment buildings where neighbours rarely interact with one another.\"",
+                "options": {
+                    "A": "This sense of anonymity can leave individuals feeling isolated, particularly during times of personal crisis.",
+                    "B": "Apartment buildings are generally more energy-efficient than detached houses.",
+                    "C": "Urban planning has changed significantly since the Industrial Revolution.",
+                    "D": "Community gardens are a popular trend in many modern cities."
+                },
+                "correct": "A",
+                "explanation": "Câu gốc nêu thực trạng hàng xóm ít tương tác trong chung cư đô thị. Câu A diễn giải hệ quả xã hội của thực trạng đó — cảm giác cô đơn và thiếu sự hỗ trợ. Mối quan hệ nhân-quả được duy trì nhất quán. Câu B nói về hiệu quả năng lượng — hoàn toàn không liên quan. Câu C nói về lịch sử quy hoạch đô thị — chuyển chủ đề đột ngột. Câu D đưa ra giải pháp (vườn cộng đồng) khi vấn đề chưa được khai thác đủ."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "\"The internet enables people to access knowledge from any part of the world within seconds.\"",
+                "options": {
+                    "A": "Fibre-optic cables play a key role in increasing internet connection speeds globally.",
+                    "B": "This has dramatically democratised education, giving learners in disadvantaged regions equal opportunities.",
+                    "C": "Online gaming has become one of the most profitable entertainment industries worldwide.",
+                    "D": "Some governments restrict access to certain websites for political reasons."
+                },
+                "correct": "B",
+                "explanation": "Câu gốc nhấn mạnh khả năng truy cập tri thức toàn cầu tức thì. Câu B phát triển ý đó bằng cách nêu tác động tích cực cụ thể — dân chủ hóa giáo dục. Đây là mối quan hệ bổ sung và phát triển luận điểm hợp lý. Câu A nói về hạ tầng kỹ thuật — không bổ sung cho luận điểm về tri thức. Câu C chuyển sang ngành game — hoàn toàn lạc đề. Câu D đưa vào một chiều cạnh chính trị đột ngột, không có từ nối phù hợp."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "\"Spending long hours commuting leaves many workers with little energy for social activities after work.\"",
+                "options": {
+                    "A": "Public transport systems in many countries are under significant pressure due to rising populations.",
+                    "B": "Consequently, meaningful social relationships outside the workplace become increasingly difficult to maintain.",
+                    "C": "Remote working policies have been adopted by many multinational companies since 2020.",
+                    "D": "Traffic congestion is a major source of air pollution in metropolitan areas."
+                },
+                "correct": "B",
+                "explanation": "Câu gốc nêu nguyên nhân — đi lại mệt mỏi khiến người lao động không còn năng lượng cho các hoạt động xã hội. Câu B kết nối trực tiếp bằng \"Consequently\" và đưa ra hệ quả cụ thể: khó duy trì quan hệ xã hội. Câu A nói về hạ tầng giao thông công cộng — không liên quan đến hệ quả xã hội. Câu C đưa ra chính sách làm việc từ xa — chuyển chủ đề mà không có liên hệ rõ ràng. Câu D nói về ô nhiễm không khí — hoàn toàn lạc đề."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "\"Search engines such as Google process billions of queries each day, providing instant answers to users worldwide.\"",
+                "options": {
+                    "A": "Google was founded by Larry Page and Sergey Brin while they were students at Stanford University.",
+                    "B": "However, the speed of retrieval does not guarantee the accuracy or reliability of the information found.",
+                    "C": "Internet speeds have improved considerably with the rollout of 5G technology.",
+                    "D": "Advertisers pay large sums of money to appear at the top of search results pages."
+                },
+                "correct": "B",
+                "explanation": "Câu gốc nêu ưu điểm của công cụ tìm kiếm — tốc độ và quy mô. Câu B tạo sự tương phản hợp lý bằng từ \"However\", nhấn mạnh rằng tốc độ không đồng nghĩa với độ chính xác — đây là mối quan hệ đối nghịch có chủ đích, bổ sung chiều sâu cho lập luận. Câu A cung cấp thông tin lịch sử về Google — không liên quan đến luận điểm. Câu C nói về tốc độ mạng — trùng lặp chủ đề nhưng không phát triển được ý. Câu D nói về quảng cáo — chuyển chủ đề đột ngột."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "\"Living in densely populated cities, many residents lack the time or inclination to form connections with those around them.\"",
+                "options": {
+                    "A": "Over time, this erosion of community ties can contribute to increased rates of loneliness and mental health issues.",
+                    "B": "City populations have grown rapidly due to rural-to-urban migration over the past century.",
+                    "C": "Many metropolitan areas are investing heavily in smart city infrastructure.",
+                    "D": "Urban residents often enjoy greater access to cultural events and entertainment options."
+                },
+                "correct": "A",
+                "explanation": "Câu gốc nêu thực trạng thiếu kết nối xã hội ở đô thị. Câu A là hệ quả trực tiếp và có chiều sâu — sự mất đi kết nối cộng đồng dẫn đến cô đơn và các vấn đề sức khỏe tâm thần. Mối quan hệ nhân-quả được duy trì mạch lạc. Câu B cung cấp bối cảnh lịch sử về di cư — không phát triển luận điểm về kết nối xã hội. Câu C nói về hạ tầng thành phố thông minh — chuyển hoàn toàn sang chủ đề công nghệ đô thị. Câu D đưa ra ưu điểm của thành phố — tạo ra sự tương phản không có từ nối, gây mơ hồ về mối quan hệ giữa hai câu."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "environment",
+        "writing_task": 2,
+        "criterion": "coherence_cohesion",
+        "error_code": "weak_information_flow",
+        "frequency": 2,
+        "references": [
+            {
+                "question": {
+                    "prompt": "In some countries, companies allow people to work from home. In others, people are still expected to work in an office. Discuss both views and give your own opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "Working from home saves commuting time. Moreover, office spaces are often expensive for companies to maintain.",
+                        "explanation": "Câu đầu nhấn mạnh vào lợi ích \"tiết kiệm thời gian di chuyển\" đối với người lao động khi làm việc tại nhà, nhưng câu sau lại chuyển trọng tâm sang chi phí duy trì văn phòng của công ty."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "The increasing availability of low-cost airlines now lets people travel around the world. Some feel this is a positive development while others think it is negative overall. Discuss both sides and give your opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "This change is especially beneficial for travelers. New cultures and lifestyles are being experienced by them thanks to affordable flights.",
+                        "explanation": "Chủ thể cần nhấn mạnh ở đây là \"travelers\" (du khách) – những người chủ động trải nghiệm văn hóa mới nhờ vé máy bay giá rẻ, nhưng câu bị động lại đặt \"new cultures and lifestyles\" làm chủ ngữ."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "coh_emphasis_env_9q1m4",
+            "type": "Multiple Choice - Single",
+            "ai_grading": false,
+            "error_code": "weak_information_flow",
+            "difficulty": "B2",
+            "topic": "environment",
+            "instruction": "Đề bài cho biết một danh từ/cụm danh từ cần được nhấn mạnh (chủ thể, hành động, đối tượng, thời gian, địa điểm hoặc bối cảnh). Cả 4 lựa chọn A, B, C, D đều dùng cấu trúc nhấn mạnh (câu chẻ, đảo ngữ, trợ động từ do/does/did, it is/was not until...) và có độ dài tương đương nhau. Chọn câu nhấn đúng vào danh từ/cụm danh từ được yêu cầu.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn câu chẻ hoặc đảo ngữ nhấn đúng yếu tố được yêu cầu giúp bạn đặt thông tin trọng tâm vào đúng vị trí trong câu, khắc phục lỗi đổi trọng tâm giữa hai câu liền kề hoặc dùng câu bị động đẩy chủ thể chính ('travelers') ra cuối câu như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Yếu tố cần nhấn mạnh: \"renewable energy\" (đối tượng/lĩnh vực được đầu tư). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "It is renewable energy that governments should prioritize funding for in the coming decade.",
+                    "B": "It is governments that should prioritize funding renewable energy in the coming decade.",
+                    "C": "It is the coming decade that will see governments prioritize funding for renewable energy.",
+                    "D": "It is funding that governments should prioritize for renewable energy in the coming decade."
+                },
+                "correct": "A",
+                "explanation": "Cấu trúc câu chẻ \"It is ... that\" đặt \"renewable energy\" ngay sau \"It is\", đúng với yêu cầu nhấn mạnh đối tượng cần được đầu tư. Câu B nhấn vào \"governments\" (chủ thể), câu C nhấn vào \"the coming decade\" (thời gian), câu D nhấn vào \"funding\" (hành động)."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Yếu tố cần nhấn mạnh: \"scientists\" (chủ thể đưa ra cảnh báo). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "It was the extinction crisis that scientists warned the public about repeatedly last year.",
+                    "B": "It was scientists who warned the public about the extinction crisis repeatedly last year.",
+                    "C": "It was the public that scientists warned about the extinction crisis repeatedly last year.",
+                    "D": "It was last year that scientists warned the public about the extinction crisis repeatedly."
+                },
+                "correct": "B",
+                "explanation": "Câu B dùng \"It was scientists who...\" để nhấn mạnh đúng chủ thể đưa ra cảnh báo. Câu A nhấn vào \"the extinction crisis\" (đối tượng), câu C nhấn vào \"the public\" (người nhận hành động), câu D nhấn vào \"last year\" (thời gian)."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Yếu tố cần nhấn mạnh: \"only after the flood\" (thời điểm hành động xảy ra). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "Only after the flood did local authorities begin rebuilding the damaged embankments.",
+                    "B": "Only the damaged embankments did local authorities begin rebuilding after the flood.",
+                    "C": "Only local authorities began rebuilding the damaged embankments after the flood.",
+                    "D": "Only rebuilding the embankments did local authorities consider necessary after the flood."
+                },
+                "correct": "A",
+                "explanation": "Đảo ngữ \"Only after the flood did...\" đặt cụm trạng ngữ thời gian lên đầu câu, đúng yêu cầu nhấn mạnh thời điểm. Câu B, C, D đều sai cấu trúc đảo ngữ hoặc chuyển trọng tâm sang chủ thể/hành động khác."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Yếu tố cần nhấn mạnh: \"a sense of urgency\" (điều mà người viết muốn truyền tải). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "What environmental campaigners are trying to convey is a sense of urgency about climate action.",
+                    "B": "What is being conveyed by environmental campaigners is climate action itself, above all else.",
+                    "C": "What environmental campaigners want is climate action, which conveys a sense of urgency.",
+                    "D": "What conveys a sense of urgency, according to campaigners, is the pace of climate action."
+                },
+                "correct": "A",
+                "explanation": "Câu chẻ \"What... is\" trong câu A đặt \"a sense of urgency\" ở vị trí được nhấn mạnh sau \"is\", đúng yêu cầu. Câu B nhấn vào \"climate action\", câu C đảo vị trí khiến \"climate action\" thành tiêu điểm, câu D nhấn vào \"the pace of climate action\"."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Yếu tố cần nhấn mạnh: \"in developing countries\" (địa điểm/bối cảnh diễn ra vấn đề). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "It is in developing countries that deforestation rates remain alarmingly high despite global efforts.",
+                    "B": "It is deforestation that remains alarmingly high in developing countries despite global efforts.",
+                    "C": "It is global efforts that have failed to curb deforestation rates in developing countries.",
+                    "D": "It is despite global efforts that deforestation rates remain alarmingly high in developing countries."
+                },
+                "correct": "A",
+                "explanation": "Câu A đặt \"in developing countries\" ngay sau \"It is\", đúng yêu cầu nhấn mạnh địa điểm/bối cảnh. Câu B nhấn vào \"deforestation\" (đối tượng), câu C nhấn vào \"global efforts\" (chủ thể), câu D nhấn vào cụm nhượng bộ \"despite global efforts\"."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Yếu tố cần nhấn mạnh: \"comply\" (bản thân hành động, được nhấn bằng trợ động từ). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "Small businesses do comply with the new emission standards, despite the financial burden involved.",
+                    "B": "Small businesses do face a financial burden, despite complying with the new emission standards.",
+                    "C": "It is small businesses that comply with the new emission standards despite financial burdens.",
+                    "D": "It is financial burdens that small businesses face despite complying with emission standards."
+                },
+                "correct": "A",
+                "explanation": "Trợ động từ nhấn mạnh \"do comply\" trong câu A khẳng định mạnh mẽ chính hành động tuân thủ, đúng yêu cầu. Câu B nhấn vào \"face\" (một hành động khác), câu C và D dùng câu chẻ nhấn vào chủ thể hoặc đối tượng thay vì hành động."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Yếu tố cần nhấn mạnh: \"midnight\" (thời điểm cụ thể xảy ra sự việc). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "It was not until midnight that the wildfire was finally brought under control by firefighters.",
+                    "B": "It was not the firefighters but volunteers who brought the wildfire under control that night.",
+                    "C": "It was not the wildfire but the smoke that caused the most damage that night.",
+                    "D": "It was not until the firefighters arrived that the wildfire began to be controlled."
+                },
+                "correct": "A",
+                "explanation": "Cấu trúc \"It was not until midnight that...\" nhấn mạnh chính xác mốc thời gian \"midnight\". Câu B nhấn vào chủ thể (volunteers thay vì firefighters), câu C nhấn vào đối tượng gây hại (the smoke), câu D nhấn vào thời điểm lính cứu hỏa đến chứ không phải \"midnight\"."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Yếu tố cần nhấn mạnh: \"policymakers\" (đối tượng chịu áp lực). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "It is policymakers who young activists are pressuring to adopt stronger climate policies.",
+                    "B": "It is young activists who are pressuring policymakers to adopt stronger climate policies.",
+                    "C": "It is stronger climate policies that young activists want policymakers to adopt.",
+                    "D": "It is pressure that young activists are placing on policymakers regarding climate policies."
+                },
+                "correct": "A",
+                "explanation": "Câu A đặt \"policymakers\" ngay sau \"It is\" như đối tượng chịu áp lực được nhấn mạnh, đúng yêu cầu. Câu B nhấn vào \"young activists\" (chủ thể gây áp lực), câu C nhấn vào \"stronger climate policies\" (nội dung yêu cầu), câu D nhấn vào \"pressure\" (bản thân hành động)."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Yếu tố cần nhấn mạnh: \"a total ban on single-use plastics\" (nội dung/giải pháp được đề xuất). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "What environmentalists are calling for is a total ban on single-use plastics nationwide.",
+                    "B": "What is being called for by environmentalists is nationwide action against plastic pollution.",
+                    "C": "What environmentalists want to achieve is a cleaner environment through various plastic bans.",
+                    "D": "What has prompted this call from environmentalists is the scale of plastic pollution."
+                },
+                "correct": "A",
+                "explanation": "Câu chẻ \"What... is\" trong câu A đặt đúng giải pháp cụ thể \"a total ban on single-use plastics\" ở vị trí nhấn mạnh. Câu B nhấn vào \"nationwide action against plastic pollution\" (chung chung hơn), câu C nhấn vào mục tiêu \"a cleaner environment\", câu D nhấn vào nguyên nhân thúc đẩy lời kêu gọi."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Yếu tố cần nhấn mạnh: \"such\" mức độ nghiêm trọng của hạn hán (nhấn bằng cấu trúc So/Such... that). Câu nào nhấn mạnh đúng yếu tố này?",
+                "options": {
+                    "A": "Such was the severity of the drought that farmers were forced to abandon their fields entirely.",
+                    "B": "So severely did the drought affect farmers that many abandoned their fields entirely.",
+                    "C": "Such were the farmers' losses that the government declared a state of emergency.",
+                    "D": "So quickly did the drought spread that entire regions lost their harvests within weeks."
+                },
+                "correct": "A",
+                "explanation": "Câu A dùng \"Such was the severity of the drought that...\" để nhấn mạnh trực tiếp mức độ nghiêm trọng của hạn hán, đúng yêu cầu. Câu B nhấn vào cách hạn hán ảnh hưởng đến nông dân, câu C nhấn vào thiệt hại của nông dân, câu D nhấn vào tốc độ lan rộng của hạn hán."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "environment",
+        "writing_task": 2,
+        "criterion": "task_response",
+        "error_code": "weak_development_and_support",
+        "frequency": 3,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Many countries are encouraging people to use bicycles instead of cars to reduce pollution. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Luận điểm về việc xe đạp giúp giảm ô nhiễm quá trừu tượng, không giải thích cơ chế cụ thể và thiếu ví dụ minh họa thực tế."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Some people think that the best way to protect the environment is for individuals to change their own behaviour. Others believe governments should take the lead through laws and policies. Discuss both views and give your opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Bài viết liệt kê hàng loạt luận điểm về vai trò của chính phủ mà không có căn cứ, không giải thích cơ chế nhân quả, không có ví dụ dễ hiểu."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "sample_02",
+            "type": "Multiple Choice - Single",
+            "ai_grading": false,
+            "error_code": "weak_development_and_support",
+            "difficulty": "B2",
+            "topic": "environment",
+            "instruction": "Chọn câu văn nối tiếp phù hợp nhất để giải thích cho luận điểm đã cho trong mỗi câu hỏi.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn câu giải thích phù hợp nhất cho từng luận điểm giúp bạn nhận ra một câu phát triển ý tốt phải nêu rõ cơ chế nhân quả hoặc ví dụ cụ thể, khắc phục lỗi đưa ra luận điểm trừu tượng (như xe đạp giúp giảm ô nhiễm, vai trò của chính phủ) mà không giải thích như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "'Riding bicycles instead of driving cars can significantly reduce air pollution in cities.'",
+                "options": {
+                    "A": "Public parks should also be expanded across the city, giving residents more green space to relax in, exercise safely, and escape the pressures of busy urban environments daily.",
+                    "B": "This is because bicycles burn no fossil fuels and release no exhaust, whereas petrol and diesel engines emit carbon monoxide and nitrogen oxides, major contributors to urban smog.",
+                    "C": "As a result, cities will become noticeably cleaner and healthier places to live, with residents breathing fresher air and generally enjoying an improved quality of daily life overall.",
+                    "D": "Amsterdam and Copenhagen, for instance, are internationally famous for their cycling culture and bike lanes, and both cities regularly top global liveability and sustainability rankings each year."
+                },
+                "correct": "B",
+                "explanation": "B là đáp án duy nhất giải thích cơ chế nhân quả (vì sao xe đạp không gây ô nhiễm). A lạc sang luận điểm mới về công viên; C chỉ nêu hậu quả cuối mà bỏ qua cơ chế; D chỉ đưa ví dụ không kèm giải thích."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "'Governments should impose stricter regulations on industrial waste disposal.'",
+                "options": {
+                    "A": "As a result, rivers and lakes will gradually become much cleaner, allowing fish populations to recover naturally while local communities benefit from safer drinking water sources overall.",
+                    "B": "Renewable energy sources such as solar and wind power should also be subsidised heavily, since affordable clean energy would reduce national reliance on fossil fuels considerably over time.",
+                    "C": "When factories are legally required to treat waste before discharge, harmful chemicals are prevented from entering rivers, protecting aquatic ecosystems and communities that depend on that water.",
+                    "D": "The Rhine River in Europe was once heavily polluted by industrial waste, and similarly severe cases have since been documented in numerous rivers across Asia and South America."
+                },
+                "correct": "C",
+                "explanation": "C giải thích cơ chế nhân quả liền mạch: quy định pháp lý dẫn đến xử lý chất thải, từ đó bảo vệ hệ sinh thái. A chỉ liệt kê hậu quả; B chuyển sang luận điểm khác; D chỉ đưa ví dụ."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "'Deforestation for agricultural land is a major driver of climate change.'",
+                "options": {
+                    "A": "When forests are cleared, the trees that would otherwise absorb carbon dioxide are removed, releasing the carbon they once stored back into the atmosphere and intensifying warming.",
+                    "B": "Illegal logging is also a widespread problem in many developing countries, and weak law enforcement allows this destructive practice to continue largely unchecked across vast forest areas.",
+                    "C": "As a result, global temperatures will continue rising steadily, making weather patterns increasingly unpredictable and causing extreme events such as droughts and floods far more frequently.",
+                    "D": "The Amazon rainforest, for instance, has lost a significant portion of its total area in recent decades, as has Indonesia due to large-scale palm oil expansion."
+                },
+                "correct": "A",
+                "explanation": "A giải thích trọn vẹn cơ chế: mất cây hấp thụ CO2, carbon được giải phóng, làm tăng hiệu ứng nhà kính. B lạc sang luận điểm mới; C chỉ nêu hậu quả cuối; D chỉ liệt kê ví dụ."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "'Single-use plastic bags should be banned in supermarkets.'",
+                "options": {
+                    "A": "Because these bags take hundreds of years to decompose, they accumulate steadily in landfills and oceans, gradually breaking down into microplastics that eventually enter the food chain.",
+                    "B": "Recycling programmes should also be made compulsory for all households nationwide, since mandatory participation would significantly increase recycling rates and reduce waste sent to landfills.",
+                    "C": "This will therefore protect the environment for future generations, keeping wildlife considerably safer from plastic-related harm while reducing overall pollution levels across land and sea.",
+                    "D": "Sea turtles, for example, often mistake floating plastic bags for jellyfish, and seabirds are frequently found by researchers with plastic fragments inside their stomachs."
+                },
+                "correct": "A",
+                "explanation": "A giải thích đầy đủ chuỗi nhân quả từ tính chất túi nhựa đến hậu quả cuối cùng. B chuyển sang luận điểm khác; C chỉ nêu hậu quả chung chung; D chỉ liệt kê ví dụ."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "'Raising the price of fuel could encourage people to use public transport more often.'",
+                "options": {
+                    "A": "When petrol becomes more expensive, the cost of private driving rises accordingly, making buses and trains comparatively cheaper and encouraging commuters to switch away from cars.",
+                    "B": "Public transport systems should also be made more comfortable and reliable nationwide, since improved service quality would likely attract and retain far more daily passengers.",
+                    "C": "This will help to reduce traffic congestion considerably in major cities, shortening commuting times for everyone and improving overall air quality across densely populated urban areas.",
+                    "D": "In Singapore and Norway, for instance, fuel taxes are notably high, and both countries are frequently cited in academic studies examining transport policy decisions."
+                },
+                "correct": "A",
+                "explanation": "A trình bày cơ chế nhân quả liền mạch từ giá xăng đến hành vi đi lại. B chuyển sang luận điểm khác; C chỉ liệt kê hậu quả; D chỉ đưa ví dụ."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "'Overfishing poses a serious threat to marine biodiversity.'",
+                "options": {
+                    "A": "As a result, many fish species could become extinct in the near future, severely harming coastal economies and communities that depend heavily on fishing for income.",
+                    "B": "Governments should therefore establish considerably more marine protected areas nationwide, with strict enforcement needed to give fish populations a genuine chance to recover.",
+                    "C": "When fish are caught faster than they can reproduce, populations decline sharply, disrupting the food chain and destabilising ecosystems that depend on predator-prey balance.",
+                    "D": "The Atlantic cod and Mediterranean bluefin tuna, for example, have both suffered notable population declines, according to numerous marine conservation studies and reports."
+                },
+                "correct": "C",
+                "explanation": "C giải thích cơ chế đầy đủ từ đánh bắt quá mức đến mất cân bằng hệ sinh thái. A chỉ liệt kê hậu quả; B chuyển sang luận điểm mới; D chỉ đưa ví dụ."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "'Urban green spaces play an important role in improving air quality.'",
+                "options": {
+                    "A": "Trees and plants absorb carbon dioxide and other pollutants through their leaves while simultaneously releasing oxygen, a natural process that helps purify the air residents breathe.",
+                    "B": "Cities should also invest considerably in more efficient public transport networks nationwide, since fewer private vehicles would ultimately translate into significantly lower emissions overall.",
+                    "C": "Consequently, urban residents will enjoy noticeably better health outcomes, with respiratory illnesses becoming less common and overall life expectancy potentially increasing across city environments.",
+                    "D": "Hyde Park in London and Central Park in New York, for instance, are frequently highlighted in studies examining the benefits of well-maintained public green spaces."
+                },
+                "correct": "A",
+                "explanation": "A giải thích rõ cơ chế: cây xanh hấp thụ ô nhiễm và thải oxy, từ đó lọc sạch không khí. B chuyển sang luận điểm khác; C chỉ nêu hậu quả; D chỉ đưa ví dụ."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "'Excessive use of chemical fertilisers in agriculture harms the environment.'",
+                "options": {
+                    "A": "As a consequence, farmland will become considerably less productive over time, forcing farmers to apply even more fertiliser in a costly, unsustainable attempt to compensate.",
+                    "B": "When rainwater washes excess fertiliser into rivers and lakes, it triggers an algal bloom that depletes oxygen levels as it decomposes, causing aquatic organisms to suffocate.",
+                    "C": "Organic farming methods should be promoted considerably as a viable alternative nationwide, since reduced reliance on chemical inputs would gradually restore long-term soil health.",
+                    "D": "The Gulf of Mexico and the Baltic Sea, for example, both contain well-documented 'dead zones' caused by agricultural runoff, according to marine science reports."
+                },
+                "correct": "B",
+                "explanation": "B giải thích đầy đủ cơ chế: phân bón dư thừa trôi vào nước, tảo phát triển, oxy cạn kiệt, sinh vật chết. A nêu hậu quả khác; C chuyển sang luận điểm mới; D chỉ đưa ví dụ."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "'Rising sea levels caused by climate change threaten coastal communities.'",
+                "options": {
+                    "A": "As global temperatures increase, polar ice caps and glaciers melt at a faster rate, adding significant volumes of water to the oceans and submerging low-lying coasts.",
+                    "B": "Governments should also build considerably higher sea walls to protect vulnerable coastal cities, though regular maintenance would be required to keep these structures genuinely effective.",
+                    "C": "This will lead to the displacement of millions of people worldwide, causing severe overcrowding elsewhere and placing considerable strain on limited government resources.",
+                    "D": "The Maldives and Bangladesh, for example, are both frequently discussed in international climate reports as nations most severely at risk from rising sea levels."
+                },
+                "correct": "A",
+                "explanation": "A giải thích cơ chế liền mạch từ nhiệt độ tăng đến mực nước biển dâng. B chuyển sang luận điểm mới; C chỉ nêu hậu quả xã hội; D chỉ đưa ví dụ."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "'Reducing meat consumption can help combat climate change.'",
+                "options": {
+                    "A": "Livestock farming requires vast amounts of land and water for grazing, while also producing significant methane, a greenhouse gas far more potent than carbon dioxide.",
+                    "B": "Vegetarian diets are also often associated with considerably better personal health outcomes, including lower cholesterol levels and a notably reduced risk of heart disease.",
+                    "C": "Therefore, everyone should seriously consider becoming vegetarian, as this lifestyle change would meaningfully help protect the planet while setting a genuinely positive example.",
+                    "D": "New Zealand and Brazil, for instance, are both widely known for their large-scale livestock industries, which face growing international scrutiny over rising emissions."
+                },
+                "correct": "A",
+                "explanation": "A giải thích rõ cơ chế: chăn nuôi tốn tài nguyên và tạo khí metan giữ nhiệt mạnh hơn CO2. B lạc sang lợi ích sức khỏe; C chỉ đưa lời khuyên; D chỉ đưa ví dụ."
+            }
+        ]
+    }
+}

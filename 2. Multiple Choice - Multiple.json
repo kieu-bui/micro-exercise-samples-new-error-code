@@ -1,0 +1,613 @@
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 1,
+        "criterion": "task_achievement",
+        "error_code": "faulty_key_feature_selection",
+        "frequency": 1,
+        "references": [
+            {
+                "question": {
+                    "prompt": "The graph below shows different sources of air pollutants in the UK from 1990 to 2005. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. (20 mins.)",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwB1oYR1qOcdQC8UPhziMmuiXtozXiWrqEZ8qQzA4SUg&s=10",
+                    "question_type": "dynamic"
+                },
+                "comments": [
+                    {
+                        "quote": "Moving to details, total air pollutants was higher than the industry , reaching a peak at around 7 million in 1990. Moreover, it witnessed a significant decline from 1990 to  2005.",
+                        "explanation": "Mô tả xu hướng giảm nhưng chưa nói rõ số liệu làm rõ cho phân tích này."
+                    },
+                    {
+                        "quote": "Additionally, the transport experienced a gradual growth from almost 0.2 million to above 1.5 million.",
+                        "explanation": "Mô tả xu hướng và số liệu nhưng không rõ mốc thời gian."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "The pie chart shows how people use four modes of transport in the city of Edmonton,as well as how the table shows data from five different driving reasons.",
+                    "image": "https://engnovatewebsitestorage.blob.core.windows.net/ielts-writing-task-1-images/be3dc1c2c0b83883",
+                    "question_type": "mixed_charts"
+                },
+                "comments": [
+                    {
+                        "quote": "Turning to the table, the main reason for using a private vehicle is to commute to work. Business purpose is also quite high.",
+                        "explanation": "Đưa ra nhận định nhưng chưa có số liệu chứng minh."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "data_support_env_02",
+            "type": "multiple_choice_multiple",
+            "ai_grading": false,
+            "error_code": "faulty_key_feature_selection",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Quan sát biểu đồ/sơ đồ được cung cấp trong mỗi câu hỏi. Mỗi phương án A, B, C, D là một câu văn có thể xuất hiện trong bài viết Task 1. Chọn TẤT CẢ các câu có đầy đủ số liệu và/hoặc mốc thời gian cụ thể để chứng minh cho nhận định/xu hướng được nêu ra.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn tất cả các câu có đủ số liệu và mốc thời gian giúp bạn nhận ra mỗi nhận định trong Task 1 phải đi kèm dữ liệu minh họa, khắc phục lỗi mô tả xu hướng mà thiếu số liệu hoặc thiếu mốc thời gian như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "The charts below give information about the price of airline tickets between Sydney and Melbourne over a two-week period in 2013.",
+                "question_image": "https://engnovatewebsitestorage.blob.core.windows.net/ielts-writing-task-1-images/d8cb87d6ae1c85f0",
+                "options": {
+                    "A": "Ticket prices for the Sydney to Melbourne route peaked on Friday of Week 1, reaching around $80, before falling back to about $45 by Sunday.",
+                    "B": "Prices on this route were generally higher toward the end of each working week than at other times.",
+                    "C": "In Week 2, fares followed a broadly similar pattern, again peaking on Friday at approximately $75.",
+                    "D": "The booking system likely adjusts fares dynamically based on real-time demand throughout each week."
+                },
+                "correct": [
+                    "A",
+                    "C"
+                ],
+                "explanation": "A và C nêu số liệu giá vé cụ thể ($80, $45, $75) kèm ngày cụ thể trong tuần. B mô tả xu hướng chung ('generally higher') mà không có con số. D là suy diễn về cơ chế định giá của hệ thống đặt vé, hoàn toàn không được biểu đồ thể hiện."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "The maps below show the present layout of an office building and the plans for its future redevelopment.",
+                "question_image": "https://engnovatewebsitestorage.blob.core.windows.net/ielts-writing-task-1-images/bf40c09640203eca",
+                "options": {
+                    "A": "The number of offices will be reduced from four in the present layout to three in the future layout, making space for a new meeting area.",
+                    "B": "The future building layout has been reorganised to make better use of available floor space overall.",
+                    "C": "A coffee machine and outdoor seating area, both absent from the present building, will be added near the entrance in the future layout.",
+                    "D": "These changes reflect a growing shift toward more collaborative and flexible workspace design in modern offices."
+                },
+                "correct": [
+                    "A",
+                    "C"
+                ],
+                "explanation": "A và C nêu chi tiết cụ thể có thể kiểm chứng trực tiếp trên bản đồ (số lượng phòng thay đổi từ 4 xuống 3; các tiện ích mới cụ thể). B là nhận định mơ hồ không có chi tiết cụ thể. D suy diễn xu hướng thiết kế văn phòng hiện đại, không có căn cứ trong bản đồ."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "The diagram shows the process by which coconut oil is manufactured on a mass scale, from harvesting to shipping.",
+                "question_image": "https://engnovatewebsitestorage.blob.core.windows.net/ielts-writing-task-1-images/86ac3244e9f189f9",
+                "options": {
+                    "A": "The process consists of nine distinct stages, beginning with harvesting and ending with shipping in wooden crates.",
+                    "B": "After dehusking and grating, the coconut flesh is pressed using a hydraulic press to extract the raw oil.",
+                    "C": "Modern equipment has made each of these production stages considerably faster than in the past.",
+                    "D": "The clarifying stage is essential because it ensures the final product meets international quality standards."
+                },
+                "correct": [
+                    "A",
+                    "B"
+                ],
+                "explanation": "A và B mô tả chính xác số lượng giai đoạn và nội dung cụ thể của từng bước, có thể kiểm chứng trực tiếp trên sơ đồ. C so sánh với 'quá khứ' dù sơ đồ không cung cấp thông tin lịch sử để so sánh. D suy diễn về tiêu chuẩn chất lượng quốc tế, không được sơ đồ đề cập."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "The diagram below shows the water cycle, which is the continuous movement of water on, above and below the surface of the Earth.",
+                "question_image": "https://www.ielts.edu.vn/uploads/11.jpg",
+                "options": {
+                    "A": "The ocean contributes around 80% of the total water vapour present in the atmosphere, according to the diagram.",
+                    "B": "Water evaporates from the ocean, forms condensing water vapour, and eventually returns to Earth as precipitation.",
+                    "C": "This cycle plays an increasingly important role as global water demand continues to rise each year.",
+                    "D": "Surface runoff typically moves faster than groundwater flow due to the effects of gravity on open terrain."
+                },
+                "correct": [
+                    "A",
+                    "B"
+                ],
+                "explanation": "A nêu số liệu cụ thể (80%) có trong sơ đồ. B mô tả chính xác trình tự các giai đoạn thể hiện trên sơ đồ. C suy diễn về nhu cầu nước toàn cầu, một chủ đề không được sơ đồ đề cập. D thêm chi tiết về tốc độ dòng chảy do trọng lực, không có trong sơ đồ gốc."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "The charts below give information about a public library in a town called Little Chalfont, including total loans by category in 2016.",
+                "question_image": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXca6Aemc-UPK1Amu58N3QmCl6L3ay6BatjaxbJVcxclX3mUadrWW-zbNwsWqQZY8pY1gFhgdYJ0Am_AgmLgrul6rLbqpgoMXjJau3NzBkTJbJxColGxCpkl6zGPLO2kS063FIKG6A?key=MHZxRaLAwewH7wId-7ZdZw",
+                "options": {
+                    "A": "Children's fiction and adult fiction were equally popular, each accounting for 38% of total loans in 2016.",
+                    "B": "Digital and audio formats made up only a small fraction of total loans, with children's DVDs at just 1% and adult audio books at 2%.",
+                    "C": "Members appear to prefer borrowing physical books over accessing digital content at this particular library.",
+                    "D": "The growing popularity of e-readers has likely contributed to changes in library borrowing habits over recent years."
+                },
+                "correct": [
+                    "A",
+                    "B"
+                ],
+                "explanation": "A và B nêu số liệu phần trăm cụ thể cho từng danh mục (38%, 1%, 2%). C là nhận định chung chung ('appear to prefer') không dẫn số liệu cụ thể. D suy diễn nguyên nhân về sự phổ biến của e-reader, hoàn toàn không được biểu đồ đề cập."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "The maps below describe an area before and after the construction of a hydroelectric power plant.",
+                "question_image": "https://ieltscity.vn/wp-content/uploads/2025/01/de-thi-ielts-writing-task-1-ngay-02-01-2025.jpg",
+                "options": {
+                    "A": "The farmland previously situated near the river was submerged and replaced by a large lake following the dam's construction.",
+                    "B": "Transmission towers were added to carry electricity generated by the new power plant across the surrounding area.",
+                    "C": "This kind of infrastructure project generally brings substantial economic benefits to nearby communities.",
+                    "D": "The construction process itself likely took several years to complete, given the scale of the changes shown."
+                },
+                "correct": [
+                    "A",
+                    "B"
+                ],
+                "explanation": "A và B mô tả các thay đổi cụ thể, có thể kiểm chứng trực tiếp trên hai bản đồ. C là nhận định chung về lợi ích kinh tế, không có căn cứ hay số liệu trong bản đồ. D suy đoán về thời gian thi công, thông tin hoàn toàn không xuất hiện trong đề bài."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "The diagram below shows the life cycle of a frog.",
+                "question_image": "https://engnovatewebsitestorage.blob.core.windows.net/ielts-writing-task-1-images/b94ae7c4c1b098bc",
+                "options": {
+                    "A": "The cycle consists of five main stages, beginning with eggs and ending with the fully developed adult frog.",
+                    "B": "As the tadpole develops front legs, it begins pulmonary breathing and is reclassified as a tadpole frog.",
+                    "C": "Each of these developmental stages is equally important for the frog's long-term survival in the wild.",
+                    "D": "This cycle is a good example of how amphibians have adapted successfully to both aquatic and terrestrial environments."
+                },
+                "correct": [
+                    "A",
+                    "B"
+                ],
+                "explanation": "A nêu chính xác số lượng giai đoạn có thể đếm được trên sơ đồ. B mô tả đúng trình tự và đặc điểm của một giai đoạn cụ thể. C là nhận định giá trị ('equally important') không có căn cứ định lượng. D là kết luận mang tính khái quát sinh học, vượt ra ngoài phạm vi mô tả sơ đồ."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "The pie charts indicate changes in the proportions of energy produced in a country from 1983 to 2003.",
+                "question_image": "https://writing9.com/_next/image?url=https%3A%2F%2Fimages.writing9.com%2Ff8106f52407c5f3f5ff5117e7dc0f8e6.png&w=640&q=75",
+                "options": {
+                    "A": "Nuclear power's share rose from 20% in 1983 to 24% in 2003, a modest but steady increase.",
+                    "B": "This growth in nuclear power likely reflects advances in reactor safety technology developed during the period.",
+                    "C": "Hydropower remained the smallest contributor in both years, accounting for just 4% of total energy production each time.",
+                    "D": "Overall, the country diversified its energy mix considerably by relying less heavily on fossil fuels."
+                },
+                "correct": [
+                    "A",
+                    "C"
+                ],
+                "explanation": "A và C nêu số liệu phần trăm chính xác cho hai năm cụ thể. B suy diễn nguyên nhân (công nghệ an toàn lò phản ứng) hoàn toàn không có trong biểu đồ. D là nhận định khái quát ('diversified considerably') mà không dẫn số liệu cụ thể để chứng minh."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "The bar chart below shows the number of employed persons by job type and sex for Australia last year.",
+                "question_image": "https://writing9.com/_next/image?url=https%3A%2F%2Fimages.writing9.com%2F98a9b50bafa5e8ca1bc317804c80b9ab.png&w=640&q=75",
+                "options": {
+                    "A": "Semi-professional roles showed a relatively balanced gender split, with around 500,000 males compared to roughly 350,000 females.",
+                    "B": "This more balanced distribution may reflect increasing flexibility in how semi-professional roles are structured today.",
+                    "C": "Labourers numbered around 400,000 males and 270,000 females, a smaller gap than seen in tradespeople.",
+                    "D": "Overall, workplace diversity initiatives appear to be having a measurable effect across most job categories."
+                },
+                "correct": [
+                    "A",
+                    "C"
+                ],
+                "explanation": "A và C nêu số liệu cụ thể (500,000 so với 350,000; 400,000 so với 270,000) kèm so sánh có căn cứ. B suy diễn nguyên nhân về sự linh hoạt trong cơ cấu công việc, không có căn cứ trong biểu đồ. D là kết luận về hiệu quả của các sáng kiến đa dạng hóa nơi làm việc, hoàn toàn không được dữ liệu hỗ trợ."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "The chart shows the amount of energy generated by wind in four countries from 1985 to 2000.",
+                "question_image": "https://onthiielts.com.vn/wp-content/uploads/2025/05/The-bar-chart-shows-the-amount-of-energy-generated-by-wind-in-four-countries-from-1985-to-2000.-Summarise-the-information-by-selecting-and-reporting-the-main-features-and-make-comparisons-where-re-1024x585.jpg",
+                "options": {
+                    "A": "Denmark's wind energy output grew steadily throughout the period, reaching around 12,000 GWh by 2000.",
+                    "B": "This steady growth in Denmark reflects strong government support for renewable energy research and development.",
+                    "C": "India's output remained comparatively low until around 1995, after which it increased noticeably.",
+                    "D": "By 2000, all four countries had made considerable investments in wind turbine manufacturing capacity."
+                },
+                "correct": [
+                    "A",
+                    "C"
+                ],
+                "explanation": "A và C nêu số liệu và mốc thời gian cụ thể (12,000 GWh vào 2000; khoảng năm 1995). B suy diễn nguyên nhân về chính sách hỗ trợ của chính phủ, không có trong biểu đồ. D là nhận định chung về đầu tư sản xuất turbine, không được số liệu biểu đồ chứng minh."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "task_response",
+        "error_code": "unclear_or_missing_position",
+        "frequency": 2,
+        "references": [
+            {
+                "question": {
+                    "prompt": "In some countries, more and more adults are continuing to live with their parents even after they have completed their education and found jobs. Do the advantages outweigh the disadvantages?",
+                    "question_type": "advantages_disadvantages"
+                },
+                "comments": {
+                    "quote": "In my opinion, while living with parents may strengthen family bonds, it creates dependent tendencies.",
+                    "explanation": "Position statement chưa thể hiện rõ ràng là nhược điểm có thực sự vượt qua ưu điểm hay không."
+                }
+            },
+            {
+                "question": {
+                    "prompt": "Successful sports profesionals can earn a great deal more money than people in the other important professions. some people think this is fully justified while others think it is unfair. Discuss both these views and give your own opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": {
+                    "quote": "None Specified",
+                    "explanation": "Đoạn 1 ủng hộ quan điểm 1 và đoạn 2 ủng hộ quan điểm 2, trong khi 2 quan điểm này mâu thuẫn nhau, dẫn đến việc không rõ người viết có quan điểm như thế nào về vấn đề này."
+                }
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "tr_us_02",
+            "type": "multiple_choice_multiple",
+            "ai_grading": false,
+            "error_code": "unclear_or_missing_position",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Mỗi câu hỏi cho sẵn một đề bài và 4 position statements. Chọn TẤT CẢ các position statement thể hiện quan điểm rõ ràng, cụ thể và trả lời trực tiếp đề bài.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn tất cả các position statement rõ ràng và trả lời trực tiếp đề bài giúp bạn phân biệt một quan điểm cụ thể với một câu nước đôi, khắc phục lỗi nêu quan điểm mơ hồ hoặc mỗi đoạn ủng hộ một phía khiến người đọc không biết bạn nghiêng về bên nào như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Đề bài: \"Some people believe that the advantages of using artificial intelligence in the workplace outweigh the disadvantages. To what extent do you agree or disagree?\"",
+                "options": {
+                    "A": "I agree that AI brings far greater productivity gains than the risks it poses.",
+                    "B": "In my view, AI improves efficiency, though it can also displace certain workers.",
+                    "C": "I believe there are clearly both positive and negative aspects worth considering here.",
+                    "D": "I am convinced that job losses caused by AI are a relatively minor concern."
+                },
+                "correct": [
+                    "A",
+                    "D"
+                ],
+                "explanation": "A và D đều khẳng định rõ ràng rằng lợi ích vượt trội hơn rủi ro. B nêu một lợi ích và một bất lợi song song mà không kết luận, dù mở đầu bằng 'in my view'. C dùng 'I believe' nhưng nội dung chỉ liệt kê chung hai mặt mà không đưa ra lập trường cụ thể."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Đề bài: \"Some people think that governments should strictly regulate social media platforms, while others believe this is not an effective solution. Discuss both views and give your own opinion.\"",
+                "options": {
+                    "A": "I believe digital literacy education would be far more effective than strict regulation.",
+                    "B": "In my opinion, strict regulation remains the most practical way to curb online harm.",
+                    "C": "I think regulation solves the problem overnight, yet it may also be too extreme.",
+                    "D": "Both sides raise valid points, and I feel the issue depends on the platform."
+                },
+                "correct": [
+                    "A",
+                    "B"
+                ],
+                "explanation": "A và B đều đưa ra kết luận cá nhân rõ ràng — A nghiêng về giáo dục số, B nghiêng về quản lý chặt chẽ. C dù có 'I think' nhưng nội dung vẫn đưa ra hai khẳng định mâu thuẫn nhau trong cùng một câu. D dùng 'I feel' nhưng kết luận vẫn né tránh, không đưa ra lập trường cụ thể."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Đề bài: \"Many companies are now adopting remote working technologies that allow employees to work from anywhere. Do you think this is a positive or negative development?\"",
+                "options": {
+                    "A": "I think this shift could be seen as positive or negative, depending on perspective.",
+                    "B": "In my opinion, the flexibility gained makes this development overwhelmingly positive overall.",
+                    "C": "I am convinced that remote work represents a highly positive shift for everyone.",
+                    "D": "I view this trend as overwhelmingly beneficial despite the initial adjustment required."
+                },
+                "correct": [
+                    "B",
+                    "C",
+                    "D"
+                ],
+                "explanation": "B, C và D đều trực tiếp khẳng định quan điểm là tích cực, đáp đúng yêu cầu đề bài. A dù dùng 'I think' nhưng nội dung né tránh hoàn toàn việc đưa ra lập trường cá nhân, chỉ nói chung là 'tùy góc nhìn'."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Đề bài: \"Some people argue that individuals should bear full responsibility for protecting their own data online, while others believe technology companies should take the lead. Discuss both views and give your own opinion.\"",
+                "options": {
+                    "A": "I feel there are compelling arguments on both sides, each with their own merits.",
+                    "B": "In my view, both users and companies matter, and neither matters more clearly.",
+                    "C": "I believe technology companies should bear the greater responsibility for protecting user data.",
+                    "D": "I think both should act, though weighing one against the other is subjective."
+                },
+                "correct": [
+                    "C"
+                ],
+                "explanation": "Chỉ C đưa ra kết luận rõ ràng rằng các công ty công nghệ nên chịu trách nhiệm chính. A và B đều dùng marker cá nhân nhưng nội dung vẫn né tránh, chỉ nói rằng cả hai phía đều có vai trò hoặc đều có lý. D cũng kết thúc bằng việc cho rằng đây 'là vấn đề chủ quan' chứ không phải kết luận dứt khoát."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Đề bài: \"It is often said that technological problems such as misinformation online are too big for individuals to address. Do you agree or disagree with this statement?\"",
+                "options": {
+                    "A": "I think technological problems are complex, and opinions vary widely by country.",
+                    "B": "I disagree, since platform policies combined with individual awareness can meaningfully reduce misinformation.",
+                    "C": "I believe this statement is partly true and partly false depending on the platform.",
+                    "D": "In my opinion, whether individuals can help really depends on which expert one consults."
+                },
+                "correct": [
+                    "B"
+                ],
+                "explanation": "Chỉ B rõ ràng bày tỏ sự không đồng ý với nhận định trong đề. A dùng 'I think' nhưng không trả lời câu hỏi, chỉ mô tả tính phức tạp chung. C dùng 'I believe' nhưng nội dung vẫn mơ hồ, vừa đúng vừa sai tùy trường hợp. D né tránh bằng cách đổ trách nhiệm kết luận cho chuyên gia khác."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Đề bài: \"Some people think smartphones are harmful and should be restricted for children, while others believe they play an important role in education. Discuss both views and give your own opinion.\"",
+                "options": {
+                    "A": "I believe carefully monitored smartphone use benefits children's learning more than it harms them.",
+                    "B": "In my opinion, smartphones can be harmful in some cases but beneficial in others.",
+                    "C": "I feel whether smartphones should be restricted is a matter of personal values, not facts.",
+                    "D": "I think this remains a controversial issue, with reasonable people on both sides."
+                },
+                "correct": [
+                    "A"
+                ],
+                "explanation": "Chỉ A thể hiện lập trường cá nhân rõ ràng, nghiêng về ủng hộ sử dụng smartphone có giám sát. B dùng marker cá nhân nhưng kết luận lửng lơ rằng 'tùy từng trường hợp'. C né tránh bằng cách gọi đây là 'vấn đề giá trị cá nhân'. D chỉ mô tả tính tranh cãi mà không đưa ra ý kiến cụ thể."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Đề bài: \"Cybersecurity threats are increasing rapidly worldwide. Some believe strict government regulations are the best solution, while others believe technological innovation is more effective. Discuss both views and give your own opinion.\"",
+                "options": {
+                    "A": "I think both regulations and innovation are equally essential in virtually every context.",
+                    "B": "In my view, choosing between regulation and innovation is not always a simple matter.",
+                    "C": "I believe technological innovation offers a more sustainable solution than regulation alone.",
+                    "D": "I am convinced that without continuous innovation, security will eventually weaken despite regulation."
+                },
+                "correct": [
+                    "C",
+                    "D"
+                ],
+                "explanation": "C và D đều đưa ra kết luận cá nhân cụ thể, nghiêng về vai trò của đổi mới công nghệ. A tự mâu thuẫn khi khẳng định cả hai quan điểm đều 'thiết yếu và có giá trị tương đương trong mọi trường hợp'. B dùng 'in my view' nhưng nội dung né tránh việc chọn lập trường."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Đề bài: \"Many companies are now using algorithms to make hiring decisions in order to save time. Do the advantages of this practice outweigh the disadvantages?\"",
+                "options": {
+                    "A": "I think this remains a complex issue, and outcomes may vary by company.",
+                    "B": "I believe efficiency gains clearly justify this practice despite occasional bias concerns.",
+                    "C": "In my opinion, time savings from algorithmic hiring clearly outweigh any drawbacks.",
+                    "D": "I am convinced that long-term efficiency benefits make this practice worthwhile overall."
+                },
+                "correct": [
+                    "B",
+                    "C",
+                    "D"
+                ],
+                "explanation": "B, C và D đều khẳng định trực tiếp rằng lợi ích vượt trội hơn bất lợi. A dùng 'I think' nhưng nội dung né tránh câu hỏi của đề bằng cách nói chung rằng kết quả 'tùy từng công ty'."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Đề bài: \"Some people believe that tech companies should be heavily fined for data breaches, whereas others think education and awareness campaigns are more effective. Discuss both views and give your own opinion.\"",
+                "options": {
+                    "A": "I believe strict financial penalties are ultimately more effective in changing corporate behaviour quickly.",
+                    "B": "In my opinion, financial penalties alone are sufficient, and campaigns are largely unnecessary.",
+                    "C": "I think fines deter breaches effectively, but the better approach really depends on context.",
+                    "D": "I am convinced that without educational initiatives, fines alone produce only short-term compliance."
+                },
+                "correct": [
+                    "A",
+                    "B",
+                    "D"
+                ],
+                "explanation": "A, B và D đều đưa ra kết luận rõ ràng và cụ thể — A nghiêng về xử phạt, B khẳng định dứt khoát chỉ cần phạt tiền, D nghiêng về tầm quan trọng của giáo dục. C dùng 'I think' nhưng kết luận vẫn né tránh, chỉ nói rằng cách nào tốt hơn 'tùy tình huống'."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "Đề bài: \"The rapid pace of automation is one of the most serious threats facing workers today. To what extent do you agree with this statement?\"",
+                "options": {
+                    "A": "I think different experts hold very different opinions on which threat is most serious.",
+                    "B": "I largely agree, since automation underlies many job losses across multiple sectors.",
+                    "C": "In my opinion, automation is serious, though not necessarily the most pressing issue.",
+                    "D": "I feel whether automation is the most serious threat depends on which expert one asks."
+                },
+                "correct": [
+                    "B"
+                ],
+                "explanation": "Chỉ B thể hiện rõ mức độ đồng ý của người viết đối với nhận định trong đề. A dùng 'I think' nhưng nội dung né tránh câu hỏi bằng cách chỉ nói rằng chuyên gia có ý kiến khác nhau. C dùng 'in my opinion' nhưng tự mâu thuẫn khi vừa nói 'nghiêm trọng' vừa nói 'không hẳn nghiêm trọng nhất'. D cũng né tránh tương tự A."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "environment",
+        "writing_task": 2,
+        "criterion": "coherence_cohesion",
+        "error_code": "faulty_reference_substitution_and_ellipsis",
+        "frequency": 3,
+        "references": [
+            {
+                "question": {
+                    "prompt": "University education should be free to everyone, regardless of income. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Cụm từ \"Free education\" bị lặp lại y nguyên ở đầu ba câu liên tiếp"
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Being a celebrity, there are benefits as well as problems to be faced in society. To what extent do you agree with this view?",
+                    "question_type": "advantages_disadvantages"
+                },
+                "comments": [
+                    {
+                        "quote": "None Specified",
+                        "explanation": "Bài viết lặp lại nhiều lần cấu trúc “not only… but also…”"
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "sample_06",
+            "type": "multiple_choice_multiple",
+            "ai_grading": false,
+            "error_code": "faulty_reference_substitution_and_ellipsis",
+            "difficulty": "B2",
+            "topic": "environment",
+            "instruction": "Chọn các từ/cụm từ có thể thay thế từ trong câu đã cho.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn các từ và cấu trúc có thể thay thế cho từ/cấu trúc gốc giúp bạn có sẵn phương án thay thế khi viết các câu liên tiếp, khắc phục lỗi lặp nguyên cụm 'Free education' ở đầu ba câu liền nhau và lặp lại cấu trúc 'not only… but also' như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Air pollution has become increasingly harmful to public health in many major cities. (harmful)",
+                "options": {
+                    "A": "negligible",
+                    "B": "detrimental",
+                    "C": "beneficial",
+                    "D": "damaging"
+                },
+                "correct": [
+                    "B",
+                    "D"
+                ],
+                "explanation": "'Detrimental' và 'damaging' đều mang nghĩa tiêu cực tương đương 'harmful', phù hợp để thay thế trong văn phong học thuật. 'Negligible' nghĩa là 'không đáng kể', làm giảm mức độ nghiêm trọng. 'Beneficial' mang nghĩa trái ngược hoàn toàn (có lợi)."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Renewable energy not only reduces carbon emissions but also creates thousands of new jobs in the manufacturing sector. (not only... but also)",
+                "options": {
+                    "A": "as well as...",
+                    "B": "in addition to... also",
+                    "C": "because...",
+                    "D": "along with... also"
+                },
+                "correct": [
+                    "A",
+                    "B",
+                    "D"
+                ],
+                "explanation": "'As well as...', 'in addition to... also' và 'along with... also' đều là cấu trúc bổ sung, giữ đúng chức năng liệt kê hai lợi ích như 'not only... but also'. 'Because...' tạo quan hệ nhân quả sai lệch giữa hai vế, không phù hợp để thay thế."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Overfishing has caused a drastic decline in marine biodiversity. (decline)",
+                "options": {
+                    "A": "increase",
+                    "B": "expansion",
+                    "C": "drop",
+                    "D": "growth"
+                },
+                "correct": [
+                    "C"
+                ],
+                "explanation": "'Drop' là từ đồng nghĩa duy nhất với 'decline' trong số các lựa chọn, cùng mang nghĩa suy giảm. 'Increase', 'expansion' và 'growth' đều mang nghĩa gia tăng — trái ngược hoàn toàn với 'decline', làm sai lệch thông tin của câu gốc."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Forests play an important role in regulating the Earth's climate and preserving biodiversity. (important)",
+                "options": {
+                    "A": "crucial",
+                    "B": "trivial",
+                    "C": "vital",
+                    "D": "irrelevant"
+                },
+                "correct": [
+                    "A",
+                    "C"
+                ],
+                "explanation": "'Crucial' và 'vital' đều là từ đồng nghĩa học thuật với 'important', giữ nguyên mức độ nhấn mạnh và collocate tự nhiên với 'role'. 'Trivial' (không đáng kể) và 'irrelevant' (không liên quan) đều mang nghĩa trái ngược hoàn toàn."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Recycling is widely regarded as an effective solution to the problem of plastic waste. (solution)",
+                "options": {
+                    "A": "measure",
+                    "B": "cause",
+                    "C": "remedy",
+                    "D": "answer"
+                },
+                "correct": [
+                    "A",
+                    "C",
+                    "D"
+                ],
+                "explanation": "'Measure', 'remedy' và 'answer' đều có thể thay thế cho 'solution' trong ngữ cảnh đề xuất cách giải quyết vấn đề rác thải nhựa. 'Cause' (nguyên nhân) mang nghĩa hoàn toàn trái ngược — chỉ nguồn gốc vấn đề chứ không phải cách giải quyết."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "The government must implement stricter regulations to reduce industrial emissions. (government)",
+                "options": {
+                    "A": "citizens",
+                    "B": "corporations",
+                    "C": "consumers",
+                    "D": "authorities"
+                },
+                "correct": [
+                    "D"
+                ],
+                "explanation": "'Authorities' là lựa chọn duy nhất chỉ cơ quan nhà nước có thẩm quyền ban hành quy định, tương đương nghĩa với 'government'. 'Citizens', 'corporations' và 'consumers' đều chỉ những chủ thể khác (người dân, doanh nghiệp, người tiêu dùng), không thể thay thế cho 'government' mà không làm sai nghĩa câu."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Global carbon emissions continue to increase at an alarming rate. (increase)",
+                "options": {
+                    "A": "decline",
+                    "B": "rise",
+                    "C": "surge",
+                    "D": "stabilize"
+                },
+                "correct": [
+                    "B",
+                    "C"
+                ],
+                "explanation": "'Rise' và 'surge' đều diễn tả sự gia tăng, tương đương với 'increase'; 'surge' còn mang sắc thái tăng mạnh, phù hợp với ngữ cảnh nhấn mạnh mức độ nghiêm trọng. 'Decline' (giảm) và 'stabilize' (ổn định) đều mang nghĩa trái ngược hoàn toàn với 'increase'."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Deforestation destroys natural habitats. This means that many species are losing their homes. (This means that)",
+                "options": {
+                    "A": "For example,",
+                    "B": "As a result,",
+                    "C": "Consequently,",
+                    "D": "Therefore,"
+                },
+                "correct": [
+                    "B",
+                    "C",
+                    "D"
+                ],
+                "explanation": "'As a result,', 'Consequently,' và 'Therefore,' đều là các từ nối chỉ hệ quả, tương đương chức năng với 'This means that'. 'For example,' dùng để đưa ra ví dụ minh họa, không phải hệ quả, nên không phù hợp để thay thế."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "It is important to raise public awareness about the dangers of plastic pollution. (It is important to)",
+                "options": {
+                    "A": "It is essential to",
+                    "B": "It is unlikely that",
+                    "C": "It is surprising that",
+                    "D": "It is doubtful that"
+                },
+                "correct": [
+                    "A"
+                ],
+                "explanation": "'It is essential to' là lựa chọn duy nhất giữ nguyên chức năng nhấn mạnh sự cần thiết của hành động, tương đương 'It is important to'. 'It is unlikely that', 'It is surprising that' và 'It is doubtful that' đều diễn tả sự nghi ngờ hoặc ngạc nhiên, hoàn toàn khác chức năng với câu gốc."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "In my opinion, governments should invest more heavily in clean energy technology. (In my opinion)",
+                "options": {
+                    "A": "From my perspective,",
+                    "B": "It is a well-known fact that",
+                    "C": "According to recent statistics,",
+                    "D": "I would argue that"
+                },
+                "correct": [
+                    "A",
+                    "D"
+                ],
+                "explanation": "'From my perspective,' và 'I would argue that' đều là cách diễn đạt quan điểm cá nhân, tương đương chức năng với 'In my opinion'. 'It is a well-known fact that' trình bày một sự thật khách quan, còn 'According to recent statistics,' dẫn nguồn số liệu bên ngoài — cả hai đều không thể hiện ý kiến chủ quan của người viết."
+            }
+        ]
+    }
+}

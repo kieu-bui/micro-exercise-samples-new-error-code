@@ -1,0 +1,539 @@
+{
+    "input": {
+        "topic": "education",
+        "writing_task": 2,
+        "criterion": "lexical_resource",
+        "error_code": "word_choice",
+        "frequency": 1,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Many people believe that it is easier to have a healthy lifestyle living in the countryside than in cities. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "People in rural areas have a cheap lifestyle compared to those in urban areas.",
+                        "explanation": "Từ \"cheap\" mang sắc thái nghĩa tiêu cực trong tiếng Anh, thường ám chỉ sự keo kiệt hoặc rẻ tiền kém chất lượng, trong khi người viết muốn diễn đạt ý \"chi phí sinh hoạt thấp\" mang tính trung lập; từ phù hợp hơn nên là \"affordable\" hoặc \"inexpensive\"."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "University education should be free to everyone, regardless of income. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "The government should give students a big discount on tuition fees.",
+                        "explanation": "Từ \"discount\" thường được dùng trong ngữ cảnh mua bán, giảm giá sản phẩm/dịch vụ thương mại, không phù hợp với ngữ cảnh học thuật/chính sách giáo dục; từ phù hợp hơn nên là \"subsidy\" (trợ cấp) hoặc \"fee waiver/reduction\" (miễn giảm học phí)."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_lr_12",
+            "type": "choose_from_list",
+            "ai_grading": false,
+            "error_code": "word_choice",
+            "difficulty": "B2",
+            "topic": "education",
+            "instruction": "Chọn từ phù hợp nhất để điền vào chỗ trống trong mỗi câu.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn từ đúng nhất trong nhóm từ gần nghĩa (scholarship, waiver, subsidy…) theo từng ngữ cảnh giúp bạn phân biệt sắc thái và phạm vi sử dụng của từ, khắc phục lỗi dùng từ không hợp ngữ cảnh học thuật như 'a big discount on tuition fees' trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Many talented students from low-income families rely on academic _______ to fund their university education.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "scholarship",
+                "explanation": "'Scholarship' đúng vì đây là khoản hỗ trợ tài chính cấp riêng cho một sinh viên dựa trên thành tích học tập hoặc hoàn cảnh cá nhân. 'Subsidy' sai vì từ này mang tính chính sách chung áp dụng cho cả một nhóm/ngành, không gắn với thành tích cá nhân của một sinh viên cụ thể."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Some universities grant a full tuition _______ to students who have lost a parent or guardian, covering the entire cost of their studies.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "waiver",
+                "explanation": "'Fee waiver' đúng vì đây là sự miễn hoàn toàn nghĩa vụ đóng phí, đúng với gợi ý trong lỗi gốc ('fee waiver/reduction'). 'Discount' sai vì chỉ giảm một phần giá, không loại bỏ hoàn toàn nghĩa vụ tài chính như 'waiver'."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Government _______ has made public university tuition significantly more affordable for students across the country.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "subsidy",
+                "explanation": "'Subsidy' đúng vì đây là khoản hỗ trợ tài chính mang tính chính sách công, áp dụng rộng rãi cho toàn bộ hệ thống giáo dục công lập, đúng với gợi ý sửa lỗi trong reference gốc. 'Scholarship' sai vì đây là khoản hỗ trợ cấp cho cá nhân sinh viên, không phải chính sách áp dụng cho cả hệ thống."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "The student received a research _______ to fund a year-long project studying rural education access.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "grant",
+                "explanation": "'Grant' đúng vì đây là khoản tài trợ một lần cho một dự án nghiên cứu cụ thể, khác với 'scholarship' vốn hỗ trợ chi phí học tập nói chung chứ không gắn với một dự án nghiên cứu riêng biệt."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Universities often offer merit-based _______ to attract high-achieving students regardless of their financial background.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "scholarship",
+                "explanation": "'Merit-based scholarship' là collocation chuẩn, nhấn mạnh khoản hỗ trợ dựa trên thành tích cá nhân. 'Grant' thường gắn với một dự án/mục đích cụ thể (nghiên cứu), không phù hợp khi nói về việc thu hút sinh viên giỏi nói chung."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Students facing severe financial hardship can apply for a partial fee _______ instead of taking out a loan.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "waiver",
+                "explanation": "'Fee waiver' được dùng lại — nhấn mạnh việc miễn một phần nghĩa vụ đóng phí chính thức, khác với 'discount' vốn chỉ mang tính giảm giá thương mại, không phù hợp với ngữ cảnh chính sách hỗ trợ tài chính của trường."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Without adequate _______ from the state, many public colleges would be forced to raise tuition fees significantly.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "subsidy",
+                "explanation": "'Subsidy' được dùng lại — nhấn mạnh vai trò hỗ trợ tài chính mang tính chính sách nhà nước đối với toàn hệ thống giáo dục công, khác với 'grant' vốn gắn với một mục đích/dự án cụ thể có thời hạn."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "A federal _______ allowed the college to renovate its science laboratories without increasing student fees.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "grant",
+                "explanation": "'Grant' được dùng lại — 'a federal grant' là collocation chuẩn cho khoản tài trợ có mục đích cụ thể (cải tạo phòng thí nghiệm), khác với 'subsidy' vốn thường gắn với việc giảm chi phí học tập trực tiếp cho sinh viên."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Winning a national _______ allowed her to attend a prestigious university she otherwise could not have afforded.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "scholarship",
+                "explanation": "'Scholarship' được dùng lại — nhấn mạnh khoản hỗ trợ cá nhân dựa trên thành tích, giúp một sinh viên cụ thể theo học, khác với 'waiver' vốn chỉ miễn phí chứ không phải một giải thưởng được trao dựa trên thành tích."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "A local bookstore offers a 20% _______ on textbooks for students who show a valid student ID.",
+                "options": [
+                    "scholarship",
+                    "waiver",
+                    "subsidy",
+                    "grant",
+                    "discount"
+                ],
+                "correct": "discount",
+                "explanation": "Đây là trường hợp 'discount' được dùng đúng, vì đây thực sự là một giao dịch mua bán thương mại (hiệu sách giảm giá sách giáo khoa) — đúng bản chất từ 'discount', khác với lỗi gốc trong reference khi từ này bị dùng sai cho học phí (một chính sách công, không phải giao dịch mua bán)."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "technology",
+        "writing_task": 2,
+        "criterion": "grammar_range_accuracy",
+        "error_code": "article",
+        "frequency": 2,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Some people think that the best way to reduce crime is to give longer prison sentences. Others, however, believe there are better alternative ways of reducing crime. Discuss both views and give your opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "Secondly, long prison serves to public safety by isolating offender.",
+                        "explanation": "'Offenders' nói chung, không chỉ cụ thể ai nên cần để số nhiều."
+                    },
+                    {
+                        "quote": "In my opinion, adopting the middle ground is best suited to curtail rising crime by sentencing long-term offenders,  investing in educations, reducing poverty, and creating better opportunities for at-risk individuals.",
+                        "explanation": "'Education' không có số nhiều."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "Some people think that physical strength is important for success in sport, while other people think that mental strength is more important. Discuss both views and give your own opinion.",
+                    "question_type": "both_views"
+                },
+                "comments": [
+                    {
+                        "quote": "If the person is not physically fit, it can be difficult for them to win competitions or continue playing for a long time.",
+                        "explanation": "'Person' trong trường hợp này chưa được xác định, vì vậy cần mạo từ 'a'."
+                    },
+                    {
+                        "quote": "For example, player who is losing a game but still believes in themselves may have a better chance to make a comeback.",
+                        "explanation": "'Player' chưa xác định, cần mạo từ 'a' hoặc chia số nhiều."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "gra_ane_02",
+            "type": "choose_from_list",
+            "ai_grading": false,
+            "error_code": "article",
+            "difficulty": "B2",
+            "topic": "technology",
+            "instruction": "Chọn mạo từ phù hợp (a, an, the, hoặc trống) từ danh sách bên dưới để điền vào chỗ trống trong mỗi câu. Mỗi lựa chọn có thể được dùng nhiều lần hoặc không dùng lần nào.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn a, an, the hoặc để trống cho từng danh từ giúp bạn luyện xét danh từ đã xác định hay chưa và đếm được hay không trước khi viết, khắc phục lỗi thiếu mạo từ trước danh từ số ít chưa xác định ('the person' → 'a person', 'player' → 'a player') như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "_______ artificial intelligence is transforming numerous industries by automating tasks that once required human judgement.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "(blank)",
+                "explanation": "'Artificial intelligence' là danh từ không đếm được, mang nghĩa khái quát chung (trí tuệ nhân tạo nói chung), không chỉ một hệ thống cụ thể đã được xác định trước, nên không cần mạo từ."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Tech companies must take measures to protect _______ personal data they collect from millions of users worldwide.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "the",
+                "explanation": "'The personal data' ở đây đã được xác định cụ thể bởi mệnh đề bổ nghĩa 'they collect from millions of users worldwide', nên cần mạo từ xác định 'the' dù danh từ không đếm được."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "_______ internet has fundamentally changed the way people communicate, work, and access information.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "the",
+                "explanation": "'The internet' là một thực thể duy nhất, được cả người nói và người nghe hiểu rõ và xác định cụ thể (chỉ có một hệ thống internet toàn cầu), nên cần mạo từ xác định 'the'."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Researchers recently developed _______ innovative algorithm capable of detecting cyber threats before they cause damage.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "an",
+                "explanation": "'Innovative' bắt đầu bằng âm nguyên âm khi phát âm, và đây là lần đầu tiên một thuật toán cụ thể được đề cập, chưa được xác định trước trong ngữ cảnh, nên cần mạo từ không xác định 'an'."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "_______ smartphones used in this particular study were all equipped with the latest facial recognition software.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "the",
+                "explanation": "'The smartphones used in this particular study' đã được xác định cụ thể bởi cụm bổ nghĩa 'used in this particular study', nên cần mạo từ xác định 'the' dù danh từ ở dạng số nhiều."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Experts agree that protecting _______ software infrastructure supporting national power grids is now a top priority.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "the",
+                "explanation": "Câu này ám chỉ một hạ tầng phần mềm cụ thể đã được ngụ ý từ ngữ cảnh (hệ thống hỗ trợ lưới điện quốc gia), nên cần mạo từ xác định 'the' để chỉ rõ đối tượng cụ thể đang được nói đến."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Adopting cloud storage can be _______ efficient way for small businesses to manage their growing data needs.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "an",
+                "explanation": "'Efficient' bắt đầu bằng âm nguyên âm khi phát âm, và đây là một cách thức bất kỳ trong số nhiều giải pháp khả thi, chưa được xác định cụ thể, nên cần mạo từ không xác định 'an'."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "_______ misinformation spreading through social media platforms has become a growing concern for governments worldwide.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "(blank)",
+                "explanation": "'Misinformation' là danh từ không đếm được mang nghĩa khái quát chung (thông tin sai lệch nói chung), không chỉ một trường hợp cụ thể đã được xác định trước, nên không cần mạo từ."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Developers recently identified _______ critical vulnerability in the system that could have exposed user data.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "a",
+                "explanation": "'Critical' bắt đầu bằng âm phụ âm khi phát âm, và đây là lần đầu tiên một lỗ hổng cụ thể được đề cập, chưa được xác định trước trong ngữ cảnh, nên cần mạo từ không xác định 'a'."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "_______ automation in manufacturing has reduced the need for repetitive manual labour across many industries.",
+                "options": [
+                    "a",
+                    "an",
+                    "the",
+                    "(blank)"
+                ],
+                "correct": "(blank)",
+                "explanation": "'Automation' là danh từ không đếm được mang nghĩa khái quát chung, không chỉ một hệ thống tự động hóa cụ thể đã được xác định trước, nên không cần mạo từ."
+            }
+        ]
+    }
+}
+
+{
+    "input": {
+        "topic": "environment",
+        "writing_task": 2,
+        "criterion": "lexical_resource",
+        "error_code": "word_choice",
+        "frequency": 3,
+        "references": [
+            {
+                "question": {
+                    "prompt": "Many people believe that it is easier to have a healthy lifestyle living in the countryside than in cities. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "People in rural areas have a cheap lifestyle compared to those in urban areas.",
+                        "explanation": "Từ \"cheap\" mang sắc thái nghĩa tiêu cực trong tiếng Anh, thường ám chỉ sự keo kiệt hoặc rẻ tiền kém chất lượng, trong khi người viết muốn diễn đạt ý \"chi phí sinh hoạt thấp\" mang tính trung lập; từ phù hợp hơn nên là \"affordable\" hoặc \"inexpensive\"."
+                    }
+                ]
+            },
+            {
+                "question": {
+                    "prompt": "University education should be free to everyone, regardless of income. To what extent do you agree or disagree?",
+                    "question_type": "agree_disagree"
+                },
+                "comments": [
+                    {
+                        "quote": "The government should give students a big discount on tuition fees.",
+                        "explanation": "Từ \"discount\" thường được dùng trong ngữ cảnh mua bán, giảm giá sản phẩm/dịch vụ thương mại, không phù hợp với ngữ cảnh học thuật/chính sách giáo dục; từ phù hợp hơn nên là \"subsidy\" (trợ cấp) hoặc \"fee waiver/reduction\" (miễn giảm học phí)."
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "meta": {
+            "id": "env_lr_05",
+            "type": "choose_from_list",
+            "ai_grading": false,
+            "error_code": "word_choice",
+            "difficulty": "B2",
+            "instruction": "Chọn từ phù hợp nhất để điền vào chỗ trống trong mỗi câu.",
+            "number_of_questions": 10,
+            "rationale_for_exercise": "Việc chọn giữa các từ cùng mang nghĩa 'rẻ' như affordable, economical, inexpensive theo từng ngữ cảnh giúp bạn nắm sắc thái của từ, khắc phục lỗi dùng 'cheap' mang nghĩa tiêu cực để nói về chi phí sinh hoạt thấp ('a cheap lifestyle') như trong bài viết."
+        },
+        "exercise": [
+            {
+                "questions_no": 1,
+                "question_text": "Access to _______ renewable energy sources is crucial for helping low-income households transition away from fossil fuels.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "affordable",
+                "explanation": "'Affordable' nhấn mạnh chi phí nằm trong khả năng chi trả của một nhóm đối tượng cụ thể (hộ gia đình thu nhập thấp) — đúng trọng tâm câu. 'Inexpensive' chỉ mô tả giá thấp một cách khách quan, không gắn với khả năng chi trả của ai. 'Cheap' mang hàm ý tiêu cực về chất lượng, không phù hợp văn phong học thuật."
+            },
+            {
+                "questions_no": 2,
+                "question_text": "Switching to LED lighting is a highly _______ choice for households seeking to cut both electricity bills and carbon footprints.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "economical",
+                "explanation": "'Economical choice' nhấn mạnh tính hiệu quả và tiết kiệm lâu dài của một quyết định, phù hợp hơn 'inexpensive' vốn chỉ nói về giá mua ban đầu chứ không phản ánh việc tiết kiệm chi phí về sau."
+            },
+            {
+                "questions_no": 3,
+                "question_text": "Composting kitchen waste is a simple and _______ way for families to reduce the amount of rubbish sent to landfill.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "inexpensive",
+                "explanation": "'Inexpensive way' mô tả khách quan rằng phương pháp này có chi phí thấp, không liên quan đến khả năng chi trả của một đối tượng cụ thể. 'Affordable' sẽ không tự nhiên vì không có đối tượng nào được nhắc để so sánh khả năng chi trả. 'Cheap' mang hàm ý tiêu cực, khiến phương pháp nghe có vẻ sơ sài."
+            },
+            {
+                "questions_no": 4,
+                "question_text": "Many rural communities have gained access to _______ solar panel kits that provide electricity without connecting to the national grid.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "low-cost",
+                "explanation": "'Low-cost solar panel kits' là cách diễn đạt tự nhiên khi mô tả một sản phẩm cụ thể có mức giá thấp sẵn có trên thị trường. 'Economical' không phù hợp vì từ này mô tả tính hiệu quả của việc sử dụng, không mô tả trực tiếp mức giá của một sản phẩm."
+            },
+            {
+                "questions_no": 5,
+                "question_text": "Providing _______ public transport is essential if cities want to reduce the number of private vehicles on the road and lower emissions.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "affordable",
+                "explanation": "'Affordable public transport' là collocation chuẩn, nhấn mạnh việc người dân có đủ khả năng chi trả để sử dụng. 'Low-cost' thường dùng cho sản phẩm/dịch vụ cụ thể có giá niêm yết thấp (low-cost airline), ít nhấn mạnh yếu tố 'khả năng chi trả của người dùng' như 'affordable'."
+            },
+            {
+                "questions_no": 6,
+                "question_text": "Carpooling to work is a more _______ option than driving alone, both financially and environmentally.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "economical",
+                "explanation": "'Economical option' phù hợp vì câu đang so sánh mức độ tiết kiệm/hiệu quả chi phí giữa hai lựa chọn, không chỉ đơn thuần là giá cả. 'Affordable' sẽ không tự nhiên vì không có yếu tố 'khả năng chi trả' nào được nhấn mạnh trong ngữ cảnh so sánh này."
+            },
+            {
+                "questions_no": 7,
+                "question_text": "Using rainwater harvesting systems is an _______ method of conserving water in drought-prone regions.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "inexpensive",
+                "explanation": "'Inexpensive method' phù hợp khi chỉ đơn thuần mô tả chi phí thấp của một phương pháp kỹ thuật, mang tính khách quan. 'Economical' có thể gây hiểu lầm vì từ này thường nhấn mạnh yếu tố tiết kiệm/hiệu quả trong việc sử dụng nguồn lực hơn là chi phí ban đầu để thực hiện."
+            },
+            {
+                "questions_no": 8,
+                "question_text": "Governments are increasingly investing in _______ housing built with sustainable, locally sourced materials.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "low-cost",
+                "explanation": "'Low-cost housing' là collocation chuẩn, quen thuộc để chỉ nhà ở có giá thành thấp như một loại sản phẩm/dự án cụ thể. 'Affordable housing' cũng phổ biến nhưng nhấn mạnh khả năng chi trả của người mua hơn là mức giá của công trình, trong khi câu này tập trung vào đặc điểm công trình."
+            },
+            {
+                "questions_no": 9,
+                "question_text": "Developing countries need _______ access to clean drinking water technologies to combat waterborne diseases linked to pollution.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "affordable",
+                "explanation": "'Affordable access' nhấn mạnh khả năng chi trả để tiếp cận công nghệ, phù hợp ngữ cảnh phát triển bền vững. 'Economical' không phù hợp vì từ này mô tả tính hiệu quả/tiết kiệm của một lựa chọn hoặc hành động, không dùng để mô tả 'khả năng tiếp cận'."
+            },
+            {
+                "questions_no": 10,
+                "question_text": "The fast-fashion industry relies on _______, mass-produced clothing that is often discarded after only a few uses, contributing significantly to textile waste in landfills.",
+                "options": [
+                    "affordable",
+                    "inexpensive",
+                    "economical",
+                    "low-cost",
+                    "cheap"
+                ],
+                "correct": "cheap",
+                "explanation": "Đây là trường hợp hiếm hoi 'cheap' lại là lựa chọn đúng, vì chính sắc thái tiêu cực (rẻ tiền, kém chất lượng, sản xuất hàng loạt) mới truyền tải đúng thông điệp phê phán ngành thời trang nhanh. 'Affordable' hay 'inexpensive' mang nghĩa trung lập, sẽ làm mất đi ý phê phán mà câu văn muốn nhấn mạnh."
+            }
+        ]
+    }
+}
